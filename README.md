@@ -621,7 +621,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   ```
 
 ----------------------------------------
-#### Google, CMU
+#### Google, and CMU
 
 - Transformer XL
 
@@ -670,7 +670,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   ```
 
 ----------------------------------------
-#### Pengcheng Lab, Baidu
+#### Pengcheng Lab, and Baidu
 
 - ERNIE
 
@@ -695,7 +695,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   ```
 
 ----------------------------------------
-#### Google, University of Washington
+#### Google, and University of Washington
 
 - RoBERTa
 
@@ -1336,7 +1336,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   ```
 
 ----------------------------------------
-#### Google, Imperial College London
+#### Google, and Imperial College London
 
 - Pegasus
 
@@ -1362,7 +1362,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   ```
 
 ----------------------------------------
-#### Google, Stanford
+#### Google, and Stanford
 
 - ELECTRA
 
@@ -1557,7 +1557,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   ```
 
 ----------------------------------------
-#### Facebook, Google, UC Berkeley
+#### Facebook, Google, and UC Berkeley
 
 - Decision Transformers
 
@@ -1653,7 +1653,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   ```
 
 ----------------------------------------
-#### EleutherAI, Stability.ai, LMU Munich
+#### EleutherAI, Stability.ai, and LMU Munich
 
 - StableDiffusion
 
@@ -1778,7 +1778,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   ```
 
 ----------------------------------------
-#### Huggingface, Big Science
+#### Huggingface, and Big Science
 
 - BLOOM
 
@@ -1832,7 +1832,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   ```
 
 ----------------------------------------
-#### Meta AI, University of Washington, University of Hong Kong
+#### Meta AI, University of Washington, and University of Hong Kong
 
 - InstructOR
 
@@ -2122,7 +2122,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   ```
 
 ----------------------------------------
-#### Cerebras, Mohamed bin Zayed University of Artificial Intelligence, Inception
+#### Cerebras, Mohamed bin Zayed University of Artificial Intelligence, and Inception
 
 - JAIS
 
