@@ -3,7 +3,7 @@
 - GPT-1
 
   ```yaml
-  ﻿"Title: Improving Language Understanding by Generative Pre-Training
+  Title: Improving Language Understanding by Generative Pre-Training
   model family: GPT
   date created: 2018-06-01
   organization: OpenAI
@@ -26,7 +26,7 @@
 - GPT-2
 
   ```yaml
-  ﻿"Title: Language models are unsupervised multitask learners
+  Title: Language models are unsupervised multitask learners
   model family: GPT
   date created: 2019-02-01
   organization: OpenAI
@@ -48,7 +48,7 @@
 - GPT-3
 
   ```yaml
-  ﻿"Title: Language Models are Few-Shot Learners
+  Title: Language Models are Few-Shot Learners
   model family: GPT
   date created: 2020-05-01
   organization: OpenAI
@@ -71,7 +71,7 @@
 - DALL-E
 
   ```yaml
-  ﻿"Title: Zero-Shot Text-to-Image Generation
+  Title: Zero-Shot Text-to-Image Generation
   model family: GPT
   date created: 2021-01-01
   organization: OpenAI
@@ -95,7 +95,7 @@
 - CLIP
 
   ```yaml
-  ﻿"Title: Learning Transferable Visual Models From Natural Language Supervision
+  Title: Learning Transferable Visual Models From Natural Language Supervision
   model family: Also using Resnet, ViT, and vanilla transformer for text, CLIP
   date created: 2021-02-01
   organization: OpenAI
@@ -117,7 +117,7 @@
 - GLIDE
 
   ```yaml
-  ﻿"Title: GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models
+  Title: GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models
   model family: Diffusion models
   date created: 2021-12-01
   organization: OpenAI
@@ -137,7 +137,7 @@
 - InstructGPT
 
   ```yaml
-  ﻿"Title: Training language models to follow instructions with human feedback
+  Title: Training language models to follow instructions with human feedback
   model family: GPT
   date created: 2022-01-01
   organization: OpenAI
@@ -158,7 +158,7 @@
 - DALL-E 2
 
   ```yaml
-  ﻿"Title: Hierarchical Text-Conditional Image Generation with CLIP Latents
+  Title: Hierarchical Text-Conditional Image Generation with CLIP Latents
   model family: GLIDE, CLIP
   date created: 2022-04-01
   organization: OpenAI
@@ -177,7 +177,7 @@
 - ChatGPT
 
   ```yaml
-  ﻿"Title: Introducing ChatGPT
+  Title: Introducing ChatGPT
   model family: GPT
   date created: 2022-11-30
   organization: OpenAI
@@ -198,7 +198,7 @@
 - GPT-4
 
   ```yaml
-  ﻿"Title: GPT-4 Technical Report
+  Title: GPT-4 Technical Report
   model family: GPT
   date created: 2023-03-14
   organization: OpenAI
