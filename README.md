@@ -2,7 +2,8 @@
 
 # awesome-LLMs [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
-A collection of AWESOME things about Large Language Models (LLMs). Each LLM is described as a structured summary based on a salient list of properties that they share in common, and hence, on the basis of which they can be compared. The structured description of LLMs follows next-generation scholarly communication paradigm, thus the data can be easily imported into any scholarly knowledge graph (SKG). An awesome example is the current machine-actionable [review article](https://orkg.org/review/R609546) of LLMs on the Open Research Knowledge Graph ([ORKG](https://orkg.org/)) or the [large-scale comparison](https://orkg.org/comparison/R609337/) of LLMs. 
+A compilation of AWESOME things of Large Language Models (LLMs) is presented. Each LLM is detailed through a structured summary, highlighting shared characteristics for easy comparison. This structured approach aligns with the next-generation scholarly communication standards, allowing seamless integration into any Scholarly Knowledge Graph (SKG). A prime example is the machine-actionable [review article](https://orkg.org/review/R609546) on the Open Research Knowledge Graph ([ORKG](https://orkg.org/)) or the [comprehensive comparison](https://orkg.org/comparison/R609337/) of LLMs.
+
 
 ## Contents
 
