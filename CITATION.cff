@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "D'Souza"
+  given-names: "Jennifer"
+  orcid: "https://orcid.org/0000-0002-6616-9509"
+title: "awesome LLMs"
+version: 1.0.0
+doi: 10.5281/zenodo.8321802
+date-released: 2023-08-06
+url: "https://github.com/jd-coderepos/llms"
