@@ -48,7 +48,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 
 #### OpenAI
 
-- <a href="https://orkg.org/paper/R370535/R370538" target="_blank">GPT-1</a>
+- [[GPT-1]](https://orkg.org/paper/R370535/R370538){:target="_blank"}
 
   ```yaml
   Title: Improving Language Understanding by Generative Pre-Training
