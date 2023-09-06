@@ -9,22 +9,46 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 
 - [awesome-LLMs](#awesome-LLMs-)
   - [Organizations](#Organizations)
-    - [Language Model](#language-model)
-    - [Vision Models](#vision-models)
-    - [Reinforcement Learning](#reinforcement-learning)
-    - [Speech](#speech)
-    - [Science](#science)
+	- [OpenAI](#openai)
+	- [Google](#google)
+	- [Google, and CMU](#google-and-cmu)
+	- [Pengcheng Lab, and Baidu](#pengcheng-lab-and-baidu)
+	- [Google, and University of Washington](#google-and-university-of-washington)
+	- [Salesforce](#salesforce)
+	- [Deepmind](#deepmind)
+	- [Facebook](#facebook)
+	- [Microsoft](#microsoft)
+	- [Huggingface](#huggingface)
+	- [Google, and Imperial College London](#google-and-imperial-college-london)
+	- [Google, and Stanford](#google-and-stanford)
+	- [NVidia](#nvidia)
+	- [EleutherAI](#eleutherai)
+	- [Facebook, Google, and UC Berkeley](#facebook-google-and-uc-berkeley)
+	- [UC Berkeley](#uc-berkeley)
+	- [AI21](#ai21)
+	- [Anthropic](#anthropic)
+	- [EleutherAI, Stability.ai, and LMU Munich](#eleutherai-stability.ai-and-lmu-munich)
+	- [Amazon](#amazon)
+	- [Tsinghua University](#tsinghua-university)
+	- [BigScience](#bigscience)
+	- [Huggingface, and Big Science](#huggingface-and-big-science)
+	- [Meta](#meta)
+	- [Meta AI, University of Washington, and University of Hong Kong](#meta-ai-university-of-washington-and-university-of-hong-kong)
+	- [Meta AI](#meta-ai)
+	- [Stanford University](#stanford-university)
+	- [Large Model Systems Organization](#large-model-systems-organization)
+	- [MosaicML](#mosaicml)
+	- [BigCode Project](#bigcode-project)
+	- [Technology Innovation Institute](#technology-innovation-institute)
+	- [Berkeley AI Research](#berkeley-ai-research)
+	- [Cerebras, Mohamed bin Zayed University of Artificial Intelligence, and Inception](#cerebras-mohamed-bin-zayed-university-of-artificial-intelligence-and-inception)
 
 
 ## Organizations
 
 ### Language Model
 
-<p align="center">
-    <img src="img/llm-evolutionary-tree.png" alt="LLM evolutionary tree" width="460"/>
-</p >
-
-- **Baichuan** [[Baichuan]]() Jun. 2023 [[open]](https://github.com/baichuan-inc/baichuan-7B)
+- **OpenAI**
 
   ```yaml
   Field: Language
@@ -34,7 +58,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   Context: 4096
   ```
 
-- **Falcon** [[TII]]() Jun. 2023 [[open]](https://huggingface.co/tiiuae/falcon-40b)
+- **Falcon**
 
   ```yaml
   Field: Language
@@ -44,7 +68,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   Context Length: 2048
   ```
 
-- **OpenLLaMA** [[OpenLM]]() May. 2023 [[open]](https://github.com/openlm-research/open_llama)  
+- **Google, and CMU**
 
   ```yaml
   Field: Language
