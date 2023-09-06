@@ -6,7 +6,7 @@ A collection of AWESOME things about Large Language Models (LLMs). Each LLM is d
 
 ## Contents
 
-- [awesome-huge-models ](#awesome-LLMs-)
+- [awesome-LLMs](#awesome-LLMs)
   - [Models](#models)
     - [Language Model](#language-model)
     - [Vision Models](#vision-models)
