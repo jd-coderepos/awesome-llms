@@ -1,6 +1,6 @@
 <!-- omit in toc -->
 
-# awesome-llms [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+# awesome-LLMs [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
 A collection of AWESOME things about Large Language Models (LLMs). Each LLM is described as a structured summary based on a salient list of properties that they share in common, and hence, on the basis of which they can be compared. The structured description of LLMs follows next-generation scholarly communication paradigm, thus the data can be easily imported into any scholarly knowledge graph (SKG). An awesome example is the current machine-actionable [review article](https://orkg.org/review/R609546) of LLMs on the Open Research Knowledge Graph ([ORKG](https://orkg.org/)) or the [large-scale comparison](https://orkg.org/comparison/R609337/) of LLMs. 
 
@@ -1164,29 +1164,15 @@ This section will be reorganized. For now, as LLM prevails and data quality is a
   Embeddings Params: 0.01T
   ```
 
-## Keys Explanations
+## License
 
-- Company tags: the related company name. Other institudes may also involve in the job.
-- Params: number of parameters of the largest model
-- Training data size, training cost and training petaFLOPs may have some uncertainty.
-- Training cost
-  - TPUv2 hour: $4.5
-  - TPUv3 hour: $8
-  - V100 GPU hour: $0.55 (2022)
-  - A100 GPU hoor: $1.10 (2022)
-- Architecture
-  - En: Encoder-based Language Model
-  - De: Decoder-based Language Model
-  - En-De=Encoder-Decoder-based Language Model
-  - The above three architectures are powered with transformers.
-  - MoE: Mixture of Experts
-- Objective (See explanation in section 6–8 of [this paper](https://arxiv.org/pdf/2203.14101v3.pdf))
-  - MLM: Masked Language Modeling
-  - LTR: Left-To-Right Language Modeling
-  - NSP: Next Sentence Prediction
-  - PLM: Permuted Language Modeling
-  - IC: Image Captioning
-  - VLM: Vision Languauge Matching
-  - CMCL: Cross-Modal Contrastive Learning
-- FLOPs: number of FLOating-Point operations [[explanation]](https://openai.com/blog/ai-and-compute/)
-  - 1 petaFLOPs = 1e15 FLOPs
+Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
