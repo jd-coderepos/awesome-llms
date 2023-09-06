@@ -221,7 +221,7 @@
 - BERT
 
   ```yaml
-  ﻿"Title: BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+  Title: BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
   model family: BERT
   date created: 2018-10-01
   organization: Google
@@ -244,7 +244,7 @@
 - ALBERT
 
   ```yaml
-  ﻿"Title: ALBERT: A Lite BERT for Self-supervised Learning of Language Representations
+  Title: ALBERT: A Lite BERT for Self-supervised Learning of Language Representations
   model family: BERT
   date created: 2019-09-01
   organization: Google
@@ -268,7 +268,7 @@
 - T5
 
   ```yaml
-  ﻿"Title: Exploring the limits of transfer learning with a unified text-to-text transformer
+  Title: Exploring the limits of transfer learning with a unified text-to-text transformer
   model family: T5
   date created: 2019-10-01
   organization: Google
@@ -294,7 +294,7 @@
 - Big Bird
 
   ```yaml
-  ﻿"Title: Big Bird: Transformers for Longer Sequences
+  Title: Big Bird: Transformers for Longer Sequences
   model family: BERT
   date created: 2020-07-01
   organization: Google
@@ -315,7 +315,7 @@
 - ViT
 
   ```yaml
-  ﻿"Title: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
+  Title: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
   model family: BERT
   date created: 2020-10-01
   organization: Google
@@ -339,7 +339,7 @@
 - Switch
 
   ```yaml
-  ﻿"Title: Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity
+  Title: Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity
   model family: T5
   date created: 2021-01-01
   organization: Google
@@ -362,7 +362,7 @@
 - GLaM
 
   ```yaml
-  ﻿"Title: GLaM: Efficient Scaling of Language Models with Mixture-of-Experts
+  Title: GLaM: Efficient Scaling of Language Models with Mixture-of-Experts
   model family: Transformer
   date created: 2021-12-01
   organization: Google
@@ -386,7 +386,7 @@
 - LAMDA
 
   ```yaml
-  ﻿"Title: LaMDA: Language Models for Dialog Applications
+  Title: LaMDA: Language Models for Dialog Applications
   model family: LaMDA-PT
   date created: 2022-01-01
   organization: Google
@@ -411,7 +411,7 @@
 - FLAN
 
   ```yaml
-  ﻿"Title: Finetuned language models are zero-shot learners
+  Title: Finetuned language models are zero-shot learners
   model family: LaMDA-PT
   date created: 2022-02-08
   organization: Google
@@ -436,7 +436,7 @@
 - PaLM
 
   ```yaml
-  ﻿"Title: PaLM: Scaling Language Modeling with Pathways
+  Title: PaLM: Scaling Language Modeling with Pathways
   model family: PaLM
   date created: 2022-04-01
   organization: Google
@@ -461,7 +461,7 @@
 - UL2
 
   ```yaml
-  ﻿"Title: Ul2: Unifying language learning paradigms
+  Title: Ul2: Unifying language learning paradigms
   model family: Transformer
   date created: 2022-05-01
   organization: Google
@@ -486,7 +486,7 @@
 - Imagen
 
   ```yaml
-  ﻿"Title: Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding
+  Title: Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding
   model family: Diffusion models, CLIP, T5
   date created: 2022-06-01
   organization: Google
@@ -509,7 +509,7 @@
 - Minerva
 
   ```yaml
-  ﻿"Title: Solving Quantitative Reasoning Problems with Language Models
+  Title: Solving Quantitative Reasoning Problems with Language Models
   model family: PaLM
   date created: 2022-06-01
   organization: Google
@@ -528,7 +528,7 @@
 - Flan-T5
 
   ```yaml
-  ﻿"Title: Scaling instruction-finetuned language models
+  Title: Scaling instruction-finetuned language models
   model family: T5
   date created: 2022-11-01
   organization: Google
@@ -552,7 +552,7 @@
 - Flan-PaLM
 
   ```yaml
-  ﻿"Title: Scaling instruction-finetuned language models
+  Title: Scaling instruction-finetuned language models
   model family: PaLM
   date created: 2022-11-01
   organization: Google
@@ -578,7 +578,7 @@
 - Transformer XL
 
   ```yaml
-  ﻿"Title: Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context
+  Title: Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context
   date created: 2019-01-01
   organization: Google, CMU
   innovation: Transformer-XL introduces a segment-level recurrence mechanism and a novel positional encoding scheme to overcome the fixed-length context limitations of traditional Transformers. This allows it to capture dependencies 80% longer than RNNs and 450% longer than vanilla Transformers, addressing context fragmentation and improving efficiency in language modeling.
@@ -600,7 +600,7 @@
 - XLNet
 
   ```yaml
-  ﻿"Title: XLNet: Generalized Autoregressive Pretraining for Language Understanding
+  Title: XLNet: Generalized Autoregressive Pretraining for Language Understanding
   model family: Transformer XL
   date created: 2019-05-01
   organization: Google, CMU

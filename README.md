@@ -265,982 +265,433 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 
 #### Google
 
+- BERT
+
   ```yaml
-  Field: Language
-  Params: 40B
-  Training Data: 1T tokens (RefinedWeb)
-  License: Apache 2.0
-  Context Length: 2048
+  Title: BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+  model family: BERT
+  date created: 2018-10-01
+  organization: Google
+  innovation: BERT's primary innovation in Language Model Learning is the "masked language model" (MLM) approach, inspired by the Cloze task. This method masks random tokens in a sentence and trains the model to predict them, enabling bidirectional context understanding.
+  pretraining architecture: Encoder
+  pretraining task: Masked Language Modeling
+  fine-tuning task: Next Sentence Prediction
+  training corpus: Toronto Book Corpus and Wikipedia (3.3B Tokens)
+  optimizer: Adam optimizer
+  tokenization: WordPiece
+  number of parameters: Base = 110M, Large = 340M
+  maximum number of parameters (in million): 340
+  application: General Language Understanding and Question Answering. Many other language applications followed
+  has source code: https://huggingface.co/docs/transformers/model_doc/bert
+  blog post: https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/BERT/Fine_tuning_BERT_(and_friends)_for_multi_label_text_classification.ipynb, https://www.philschmid.de/bert-text-classification-in-a-different-language
+  license: Open, Apache 2.0
+  research problem: Large Language Models (LLMs), transformer model
+  ```
+
+- ALBERT
+
+  ```yaml
+  Title: ALBERT: A Lite BERT for Self-supervised Learning of Language Representations
+  model family: BERT
+  date created: 2019-09-01
+  organization: Google
+  innovation: The main innovation of the work is ALBERT, a language model that improves on existing large models like BERT by employing parameter reduction techniques, such as factorized embeddings and cross-layer parameter sharing. This allows ALBERT to achieve better performance and efficiency on natural language understanding tasks by training larger models with fewer parameters.
+  pretraining architecture: Encoder
+  pretraining task: Next Sentence Prediction, Masked Language Modeling
+  training corpus: Same as BERT
+  optimizer: LAMB optimizer
+  tokenization: sentencepiece
+  number of parameters: Base = 12M, Large = 18M, XLarge = 60M
+  maximum number of parameters (in million): 60
+  hardware used: Cloud TPUv3
+  extension: Compressed version of BERT using parameter sharing, which is much more efficient given the same number of parameters
+  application: Same as BERT
+  has source code: https://github.com/google-research/albert, https://huggingface.co/docs/transformers/model_doc/albert
+  blog post: https://ai.googleblog.com/2019/12/albert-lite-bert-for-self-supervised.html
+  license: Open, Apache 2.0
+  research problem: Large Language Models (LLMs), transformer model
+  ```
+
+- T5
+
+  ```yaml
+  Title: Exploring the limits of transfer learning with a unified text-to-text transformer
+  model family: T5
+  date created: 2019-10-01
+  organization: Google
+  innovation: The main innovation of Google's T5 language model is its "text-to-text" framework, where various tasks are formulated as converting input text to output text. This unified approach allows T5 to achieve state-of-the-art performance on diverse tasks without task-specific modifications, simplifying training and deployment. This innovation enhances efficiency and effectiveness in real-world applications of large language models.
+  pretraining architecture: Encoder/Decoder
+  pretraining task: Span Corruption
+  fine-tuning task: finetuning on downstream tasks one at a time
+  training corpus: Colossal Clean Crawled Corpus
+  optimizer: AdaFactor
+  tokenization: sentencepiece
+  number of parameters: 60M, 220M, 770M, 3B, and 11B
+  maximum number of parameters (in million): 11000
+  hardware used: TPUv3
+  hardware information: we use a combination of model and data parallelism and train models on “slices” of Cloud TPU Pods. TPU pods are are multi-rack ML  supercomputers that contain 1,024 TPU v3 chips connected via a high-speed 2D mesh interconnect with supporting CPU host machines.
+  extension: Same as original Transformer with some additions such as relative positional embeddings like Transformer XL
+  application: Diverse set of downstream tasks including machine translation, question answering, abstractive summarization, and text classification
+  has source code: https://github.com/google-research/text-to-text-transfer-transformer, https://huggingface.co/docs/transformers/model_doc/t5
+  blog post: https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html
+  license: Apache 2.0
+  research problem: Large Language Models (LLMs), transformer model
+  ```
+
+- Big Bird
+
+  ```yaml
+  Title: Big Bird: Transformers for Longer Sequences
+  model family: BERT
+  date created: 2020-07-01
+  organization: Google
+  innovation: BigBird introduces a sparse attention mechanism, allowing it to efficiently handle sequences up to 8 times longer than traditional models like BERT. It combines global, sliding window, and random attention patterns to capture both local and long-range dependencies. This innovation enables superior performance on various NLP tasks without sacrificing efficiency.
+  pretraining architecture: Encoder
+  pretraining task: Masked Language Modeling
+  training corpus: Books, CC-News, Stories and Wikipedia
+  tokenization: byte pair encoding
+  number of parameters: Depends on the overall architecture
+  extension: Big Bird can extend other architectures such as BERT, Pegasus, or RoBERTa by using a sparse attention mechanism that elminates the quadratic dependency thus making it more suitable for longer sequences
+  application: Particularly well suited for longer sequences, not only in text but also e.g. in genomics
+  has source code: https://github.com/google-research/bigbird, https://huggingface.co/docs/transformers/model_doc/big_bird
+  blog post: https://ai.googleblog.com/2021/03/constructing-transformers-for-longer.html, https://huggingface.co/blog/big-bird
+  license: Open, Apache 2.0
+  research problem: Large Language Models (LLMs), transformer model
+  ```
+
+- ViT
+
+  ```yaml
+  Title: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
+  model family: BERT
+  date created: 2020-10-01
+  organization: Google
+  innovation: The Vision Transformer (ViT) applies Transformers, typically used in NLP, directly to image patches without image-specific biases. It excels when pre-trained on larger datasets, outperforming traditional convolutional models like ResNets. This approach challenges the dominance of convolutional architectures in computer vision, mirroring the Transformer's rise in NLP.
+  pretraining architecture: Encoder
+  pretraining task: image classification
+  training corpus: From standard Imagenet to JFT-300M (large inhouse dataset)
+  optimizer: Adam optimizer
+  number of parameters: 86M(Base) to 632M (Huge)
+  maximum number of parameters (in million): 632
+  hardware used: Cloud TPUv3
+  hardware information: the ViT-L/16 model pre-trained on the public ImageNet-21k dataset could be trained using a standard cloud TPUv3 with 8 cores in approximately 30 days.
+  extension: Extension of BERT architecture to train on patches of images
+  application: image classification
+  has source code: https://github.com/google-research/vision_transformer, https://huggingface.co/docs/transformers/model_doc/vit
+  blog post: https://www.v7labs.com/blog/vision-transformer-guide
+  license: N/A
+  research problem: Large Language Models (LLMs), transformer model
+  ```
+
+- Switch
+
+  ```yaml
+  Title: Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity
+  model family: T5
+  date created: 2021-01-01
+  organization: Google
+  innovation: The Switch Transformer introduces a sparsely-activated model approach, enhancing the Mixture of Experts (MoE) models by simplifying their routing algorithm and reducing computational costs. It enables training large models with lower precision formats like bfloat16 and achieves up to 7x faster pre-training speeds. This innovation pushes LLM boundaries, scaling up to trillion parameter models with significant efficiency gains.
+  pretraining architecture: Encoder/Decoder
+  pretraining task: denoising autoencoder
+  training corpus: Colossal Clean Crawled Corpus
+  number of parameters: 1T
+  maximum number of parameters (in million): 1000000
+  hardware used: TPUv3
+  hardware information: All models are trained with the same amount of computation (32 cores) and on the same hardware (TPUv3).
+  extension: Goal to increase parameter count while keeping FLOP operations constant by using efficient routing of MoE (Mixture of Experts)
+  application: General language tasks (e.g. question answering)
+  has source code: https://github.com/google-research/t5x, https://github.com/tensorflow/mesh/blob/master/mesh_tensorflow/transformer/moe.py
+  blog post: https://www.alexanderthamm.com/en/blog/switch-transformer-upscaling-to-over-a-billion-parameters/
+  license: Open, Apache 2.0
+  research problem: Large Language Models (LLMs), transformer model
+  ```
+
+- GLaM
+
+  ```yaml
+  Title: GLaM: Efficient Scaling of Language Models with Mixture-of-Experts
+  model family: Transformer
+  date created: 2021-12-01
+  organization: Google
+  innovation: GLaM introduces a sparsely activated mixture-of-experts architecture, allowing it to scale to 1.2 trillion parameters while consuming only 1/3 of GPT-3's training energy. Despite its size, it achieves superior performance on 29 NLP tasks and is more energy-efficient than dense models like GPT-3.
+  pretraining architecture: Decoder
+  pretraining task: Causal language modeling
+  training corpus: 1.6T tokens including web pages filtered by Wikipedia and books for quality
+  optimizer: AdaFactor
+  tokenization: sentencepiece
+  number of parameters: 1.2T across 64 experts, but only 96B get activated for inference
+  maximum number of parameters (in million): 1200000
+  hardware used: cloud TPU-v4
+  hardware information: the GLaM (64B/64E) training after 600B tokens consumes 456 MWh, about 1/3 of the energy cost of 1287 MWh used by GPT-3. Moreover, to reach similar (and slightly exceeded) scores as GPT-3, we train using 1,024 TPU-v4 chips for 574 hours (with 280B tokens). This consumes 213 MWh or 1/6 of the GPT-3 energy cost.
+  extension: GLaM introduces a Mixture of 64 Experts to increase parameter count and generalization properties in a somewhat standard decoder-only. Transformer architecture. Only two experts get activated at a time per token, which makes the model also more efficient in training and inference.
+  application: General language modeling - tested across 29 NLP tasks
+  blog post: https://ai.googleblog.com/2021/12/more-efficient-in-context-learning-with.html
+  license: closed source
+  research problem: Large Language Models (LLMs), transformer model
+  ```
+
+- LAMDA
+
+  ```yaml
+  Title: LaMDA: Language Models for Dialog Applications
+  model family: LaMDA-PT
+  date created: 2022-01-01
+  organization: Google
+  innovation: LaMDA is a specialized dialog model that emphasizes safety and factual grounding. The model's innovation lies in its fine-tuning with annotated data and its ability to consult external knowledge sources. This approach aims to produce more accurate and safer dialog responses compared to traditional LLMs.
+  pretraining architecture: Decoder
+  pretraining task: Causal language modeling
+  fine-tuning task: based on multi-turn crowdsourced dialog datasets, LaMDA-PT is finetuned in a mix of generative tasks that generate response given contexts, and discriminative tasks that evaluate quality and safety of a response in context 
+  training corpus: 1.56T words from public dialog data and other public web documents. Overall, it consists of 2.97B documents, 1.12B dialogs, and 13.39B dialog utterances, for a total of 1.56T words
+  tokenization: sentencepiece
+  number of parameters: 137B
+  maximum number of parameters (in million): 137000
+  hardware used: TPUv3
+  hardware information: LaMDA was pretrained on 1024 TPU-v3 chips for a total of about 57.7 days, and 256K tokens per batch
+  extension: LAMDA focuses on how to improve safety, quality, and groundeness using different fine-tuning strategies
+  application: General language modeling, such as translation, summarization, question and answers
+  has source code: https://github.com/conceptofmind/LaMDA-rlhf-pytorch
+  blog post: https://ai.googleblog.com/2022/01/lamda-towards-safe-grounded-and-high.html, https://blog.google/technology/ai/lamda/
+  license: closed source
+  research problem: Large Language Models (LLMs), transformer model
+  ```
+
+- FLAN
+
+  ```yaml
+  Title: Finetuned language models are zero-shot learners
+  model family: LaMDA-PT
+  date created: 2022-02-08
+  organization: Google
+  innovation: The primary innovation of FLAN in the context of Large Language Models is instruction tuning, where models are finetuned on datasets described via natural language instructions. This method significantly enhances zero-shot learning abilities, with FLAN outperforming the 175B GPT-3 on numerous tasks. The approach emphasizes human-like prompts over traditional model-specific prompts used in models like GPT-3 and T5.
+  pretraining architecture: Decoder
+  fine-tuning task: Instruction Tuning
+  training corpus: FLAN is instruction tuned on 25 tasks spanning 62 datasets., LaMDA-PT is is pretrained on a collection of web documents (including those with computer code), dialog data, and Wikipedia, tokenized into 2.49T BPE tokens with a 32k vocabulary
+  optimizer: AdaFactor
+  tokenization: sentencepiece
+  number of parameters: 137B
+  maximum number of parameters (in million): 137000
+  hardware used: TPUv3
+  hardware information: instruction tuning takes around 60 hours on a TPUv3 with 128 cores
+  extension: Zero-shot task learning. The output space for a given task is either one of several classes (classification) or free text (generation).
+  application: language understanding and generation tasks such as inference, sentiment analysis, paraphrase, closed-book QA, reading comprehension, coreference, summarization, translation, commonsense reasoning, and struct-to-text
+  has source code: https://github.com/google-research/FLAN
+  blog post: http://rylanschaeffer.github.io/blog_posts/2022-01-20-google-brain-flan.html, https://ai.googleblog.com/2021/10/introducing-flan-more-generalizable.html
+  license: Apache 2.0
+  research problem: Large Language Models (LLMs), transformer model
+  ```
+
+- PaLM
+
+  ```yaml
+  Title: PaLM: Scaling Language Modeling with Pathways
+  model family: PaLM
+  date created: 2022-04-01
+  organization: Google
+  innovation: To demonstrate the first large-scale use of Pathways -- a new ML system which enables training a single model across thousands or tens of thousands of accelerator chips in a highly efficient manner. With Pathways, they trained a 540B parameter language model on 6144 TPU v4 chips at efficiency levels that could not be reached before for models of this scale. E.g., GPT-3 (175B), Gopher (280B), Megatron-Turing-NLG (530B).
+  pretraining architecture: Decoder
+  pretraining task: Causal language modeling
+  training corpus: 780B tokens from multilingual social media conversations (50%), multilingual filtered webpages (27%), books in English (13%), code from Github (5%), multilingual Wikipedia (4%), and news in English (1%). Code includes 24 programming languages.
+  optimizer: AdaFactor
+  tokenization: sentencepiece
+  number of parameters: 8B, 62B, and 540B
+  maximum number of parameters (in million): 540000
+  hardware used: TPUv4
+  hardware information: PaLM 540B is trained over two TPU v4 Pods connected over data center network (DCN) using a combination of model and data parallelism. Each Pod has 3072 TPU v4 chips attached to 768 hosts.
+  extension: PaLM uses a typical decoder-only transformer architecture, but adds quite a few extensions: SwiGLU activations, parallel layers, multi-query attention, RoPE embeddings, Shared Input-Output Embeddings, no biases, and a 256k SentencePiece vocabulary generated from the training data
+  application: PaLM is designed as a general purpose language model with applicability to hundreds of different language tasks
+  has source code: https://github.com/lucidrains/PaLM-pytorch
+  blog post: https://blog.google/technology/ai/introducing-pathways-next-generation-ai-architecture/, https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html
+  license: closed source
+  research problem: Large Language Models (LLMs), transformer model
+  ```
+
+- UL2
+
+  ```yaml
+  Title: Ul2: Unifying language learning paradigms
+  model family: Transformer
+  date created: 2022-05-01
+  organization: Google
+  innovation: The paper introduces the UL2 model, a unified framework for pre-training in NLP, featuring a novel Mixture-of-Denoisers (MoD) objective. This objective smoothly integrates various pre-training paradigms, such as span corruption and prefix language modeling. Additionally, UL2 introduces dynamic "mode switching" between different denoisers and showcases superior performance across diverse NLP tasks.
+  pretraining architecture: Encoder/Decoder
+  pretraining task: Mixture-of-Denoisers, which combines diverse pretraining paradigms together
+  training corpus: 1 trillion tokens on C4
+  optimizer: AdaFactor
+  tokenization: sentencepiece
+  number of parameters: 20B
+  maximum number of parameters (in million): 20000
+  hardware used: TPUv4
+  hardware information: We use a batch size of 1024 and 512 TPUv4 chips for pretraining this model. UL20B is trained with Jax and T5X infrastructure. We release and open source T5X-based model checkpoints of this 20B model
+  extension: UL2-20B (Unifying Language Learning) can be interpreted as a model that is quite similar to T5 but trained with a different objective and slightly different scaling knobs.
+  application: A unified framework for pre-training models that are universally effective across datasets and setups.
+  has source code: https://github.com/google-research/google-research/tree/master/ul2
+  blog post: https://blog.research.google/2022/10/ul2-20b-open-source-unified-language.html
+  license: Open, Apache 2.0
+  research problem: Large Language Models (LLMs), transformer model
+  ```
+
+- Imagen
+
+  ```yaml
+  Title: Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding
+  model family: Diffusion models, CLIP, T5
+  date created: 2022-06-01
+  organization: Google
+  innovation: The "Imagen" model innovatively merges transformer language models with high-fidelity diffusion techniques to produce photorealistic images from text descriptions. This demonstrates that embeddings from text-only pretrained large language models are highly effective for text-to-image synthesis.
+  pretraining architecture: T5 (or CLIP or BERT) for frozen text encoder + U-net architecture for cascaded diffusion models for text to image
+  pretraining task: image/text pair prediction
+  training corpus: a combination of internal datasets, with ? 460M image-text pairs, and the publicly available Laion dataset, with ? 400M image-text pairs
+  optimizer: AdaFactor
+  number of parameters: 2B
+  maximum number of parameters (in million): 2000
+  hardware used: TPUv4
+  hardware information: use 256 TPU-v4 chips for our base 64 x 64 model, and 128 TPU-v4 chips for both super-resolution models
+  extension: Imagen adds a few extensions to the U-net diffusion architecture (pooled embedding vector, cross attention over text embeddings, and Layer Normalizations)
+  application: Text to image
+  blog post: https://imagen.research.google/
+  license: closed source
+  research problem: Large Language Models (LLMs), transformer model
+  ```
+
+- Minerva
+
+  ```yaml
+  Title: Solving Quantitative Reasoning Problems with Language Models
+  model family: PaLM
+  date created: 2022-06-01
+  organization: Google
+  pretraining architecture: Decoder
+  pretraining task: Causal language modeling
+  training corpus: Same as PaLM + 118GB dataset of scientific papers from the arXiv preprint server and web pages that contain mathematical expressions using LaTeX, MathJax, or other mathematical typesetting formats
+  number of parameters: 540B
+  maximum number of parameters (in million): 540000
+  extension: Extends PaLM by fine-tuning on the mathematical dataset
+  application: Mathematical reasoning
+  blog post: https://ai.googleblog.com/2022/06/minerva-solving-quantitative-reasoning.html
+  license: closed source
+  research problem: Large Language Models (LLMs), transformer model
+  ```
+
+- Flan-T5
+
+  ```yaml
+  Title: Scaling instruction-finetuned language models
+  model family: T5
+  date created: 2022-11-01
+  organization: Google
+  innovation: this paper explores instruction finetuning with a particular focus on (1) scaling the number of tasks (1.8K fine-tuning tasks), (2) scaling the model size, and (3) finetuning on chain-of-thought data. This approach is compatible with various model sizes and architectures, with Flan-T5 models notably outperforming baseline T5 models.
+  pretraining architecture: Encoder/Decoder
+  pretraining task: Span Corruption
+  fine-tuning task: Instruction Tuning
+  training corpus: Flan finetuned with tasks in Muffin, T0-SF, NIV2, and CoT
+  optimizer: AdaFactor
+  number of parameters: 80M (Flan-T5-Small), 250M (Flan-T5-Base), 780M (FLan-T5-Large), 3B (Flan-T5-XL), and 11B (Flan-T5-XXL).
+  maximum number of parameters (in million): 11000
+  hardware used: TPUv3
+  extension: instruction finetuning with a particular focus on (1) scaling the number of tasks, (2) scaling the model size, and (3) finetuning on chain-of-thought data
+  application: The primary use is to underestand how to improve large language models with the right kind of instruction fine-tuning. The focus is research on zero-shot and in-context few-shot learning NLP tasks, such as reasoning, and question answering; advancing fairness and safety research, and understanding limitations of current large language models
+  has source code: https://github.com/google-research/t5x, https://huggingface.co/docs/transformers/model_doc/flan-t5
+  blog post: https://ai.googleblog.com/2023/02/the-flan-collection-advancing-open.html
+  license: Apache 2.0
+  research problem: Large Language Models (LLMs), transformer model
+  ```
+
+- Flan-PaLM
+
+  ```yaml
+  Title: Scaling instruction-finetuned language models
+  model family: PaLM
+  date created: 2022-11-01
+  organization: Google
+  innovation: The paper introduced an extended instruction fine-tuning for the Flan-PaLM model, scaling it to a 540B-parameter size and 1.8K fine-tuning tasks. They incorporated chain-of-thought (CoT) data, which enhanced performance across evaluations. This approach is compatible with various model sizes and architectures
+  pretraining architecture: Decoder
+  pretraining task: Causal language modeling
+  fine-tuning task: Instruction Tuning
+  training corpus: Flan finetuned with tasks in Muffin, T0-SF, NIV2, and CoT
+  optimizer: AdaFactor
+  number of parameters: 8B, 62B, 540B
+  maximum number of parameters (in million): 540000
+  hardware used: TPUv4
+  hardware information: use 0.2% of the pre-training compute to instruction-finetune Flan-PaLM 540B (approximately 512 v4 TPU chips for 37 hours)
+  extension: Flan-PaLM is generated by "Flan Finetuning" the PaLM models: (1) scaling the number of tasks to 1,836, (2) scaling the model size, and (3) finetuning on chain-of-thought data.
+  application: Same as Flan-T5. The goal is to show Flan finetuning can even improve on the largest Google LMs (+9.4% improvement average across tasks), with improvements to chain of thought, self consistency, multilingual tasks, arithmetic reasoning
+  license: closed source
+  research problem: Large Language Models (LLMs), transformer model
   ```
 
 #### Google, and CMU
 
+- Transformer XL
+
   ```yaml
-  Field: Language
-  Params: 13B, 7B, 3B
-  Training Data: 1T tokens (RedPajama)
-  License: Apache 2.0
-  Context Length: 2048
+  Title: Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context
+  date created: 2019-01-01
+  organization: Google, CMU
+  innovation: Transformer-XL introduces a segment-level recurrence mechanism and a novel positional encoding scheme to overcome the fixed-length context limitations of traditional Transformers. This allows it to capture dependencies 80% longer than RNNs and 450% longer than vanilla Transformers, addressing context fragmentation and improving efficiency in language modeling.
+  pretraining architecture: Decoder
+  pretraining task: Causal language modeling
+  training corpus: Different training datasets depending on experiments, but baseline is Wikitext-103
+  tokenization: byte pair encoding
+  number of parameters: 151M
+  maximum number of parameters (in million): 151
+  hardware information: state-of-the-art results reported in the paper were obtained by training the model on a large-scale TPU cluster
+  extension: Relative positioned embeddings enable longer-context attention when compared to vanilla Transformer model
+  application: General language tasks
+  has source code: https://github.com/chiayewken/transformer_xl, https://huggingface.co/docs/transformers/model_doc/transfo-xl
+  blog post: https://ai.googleblog.com/2019/01/transformer-xl-unleashing-potential-of.html
+  license: N/A
+  research problem: Large Language Models (LLMs), transformer model
   ```
 
-- **Redpajama-INCITE** [[Together]](https://github.com/togethercomputer/RedPajama-Data) May. 2023 [[open]](https://huggingface.co/togethercomputer/RedPajama-INCITE-Base-3B-v1)
+- XLNet
 
   ```yaml
-  Field: Language
-  Params: 7B, 3B
-  Training Data: 1T tokens (Redpajama)
-  License: Apache 2.0
-  Context Length: 2048
-  ```
-
-- **MPT** [[MosaicML]](https://www.mosaicml.com/blog/mpt-7b) May. 2023 [[open]](https://github.com/mosaicml/llm-foundry)  
-
-  ```yaml
-  Field: Language
-  Params: 30B, 7B
-  Training Data: 1T tokens (Private)
-  License: Apache 2.0, CC BY-SA-3.0
-  Context Length: 84k
-  ```
-
-- **Stable-LM** [[Stability-AI]](https://stability.ai/blog/stability-ai-launches-the-first-of-its-stablelm-suite-of-language-models) Apr. 2023 [[open]](https://github.com/Stability-AI/StableLM#stablelm-alpha)
-
-  ```yaml
-  Field: Language
-  Params: 7B, 3B
-  Training Data: 1.5T tokens
-  License: CC BY-SA-4.0
-  ```
-
-- **LiT-LLaMa** [[Lightning-AI]]() Apr. 2023 [[open]](https://github.com/Lightning-AI/lit-llama)  
-  
-  ```yaml
-  Field: Language
-  Params: 13B, 7B
-  Training Data: 1.2T tokens (Redpajama)
-  License: Apache 2.0
-  ```
-
-- **h2oGPT** [[H2O.ai]](https://h2o.ai/blog/building-the-worlds-best-open-source-large-language-model-h2o-ais-journey/) [[open]](https://github.com/h2oai/h2ogpt)  
-  [h2oGPT: Democratizing Large Language Models](https://arxiv.org/pdf/2306.08161.pdf)
-
-  ```yaml
-  Field: Language
-  Params: 13B, 7B
-  Training Data: 1.0T tokens
-  License: Apache 2.0
-  Context Length: 2048
-  ```
-
-- **Cerabras-GPT** [[Cerabras]]() Mar. 2023 [[open]](https://huggingface.co/cerebras/Cerebras-GPT-13B)  
-  Training Compute-Optimal Large Language Models [[preprint]](https://arxiv.org/abs/2203.15556)  
-
-  ```yaml
-  Field: Language
-  Params: 13B
-  Training Data: 371B tokens (Redpajama)
-  License: Apache 2.0
-  Context Length: 2048
-  ```
-
-- **Claude** [[Anthropic]](https://www.anthropic.com/index/introducing-claude) Mar. 2023 [close]
-
-  ```yaml
-  Field: Language-Vision
-  ```
-
-- **GPT-4** [[OpenAI]](https://openai.com/product/gpt-4) Mar. 2023 [close]  
-   GPT-4 Technical Report [[Preprint]](https://cdn.openai.com/papers/gpt-4.pdf)
-
-  ```yaml
-  Field: Language-Vision
-  Params: 1.7T
-  Architecture: De, MoE
-  ```
-
-- **Bard** [[Google]](https://blog.google/technology/ai/bard-google-ai-search-updates/)
-  
-  ```yaml
-  Field: Language-Vision
-  ```
-
-- **LLaMa** [[Meta]]() Feb. 2023 [[open]](https://github.com/facebookresearch/llama)  
-   Open and Efficient Foundation Language Models [[Preprint]](https://arxiv.org/pdf/2302.13971v1.pdf)
-
-  ```yaml
-  Field: Language
-  Params: 65B, 33B, 13B, 7B
-  Training Data: 4TB (1.4T tokens)
-  Training Cost: 1,022,362 (2048 80G-A100 x 21 days)
-  Training Power Consumption: 449 MWh
-  Instruction-tuned Variants: Alpaca, Vicuna, Dolly, Guanaco, ColossalChat, GPT4All, Koala, BELLE, MiniGPT-4, etc.
-  License: GPL
-  ```
-
-- **RWKV-4** [[Personal]]() Dec. 2022 [[open]](https://github.com/BlinkDL/RWKV-LM)
-
-  ```yaml
-  Field: Language
-  Params: 14B, 7B, 3B, 1.5B
-  Training Data: 332B tokens
-  Architecture: De, RNN
-  License: Apache 2.0
-  ```
-
-- **AnthropicLM** [[Anthropic]]() Dec. 2022 [close]  
-   Constitutional AI: Harmlessness from AI Feedback
-
-  ```yaml
-  Field: Language
-  Params: 52B
-  ```
-
-- **BLOOM** [[BigScience]]() Nov. 2022 [[open]](https://huggingface.co/bigscience/bloom)  
-   A 176B-Parameter Open-Access Multilingual Language Model [[Preprint]](https://arxiv.org/pdf/2211.05100.pdf)
-
-  ```yaml
-  Field: Language
-  Params: 176B
-  Training Data: 174GB (336B tokens)
-  Training Cost: 1M A100 GPU hours = 384 80G-A100 x 4 months
-  Training Power Consumption: 475 MWh
-  Training Framework: Megatron + Deepspeed
-  Instruction-tuned Variants: BLOOMZ
-  License: OpenRAIL-M v1
-  Context Length: 2048
+  Title: XLNet: Generalized Autoregressive Pretraining for Language Understanding
+  model family: Transformer XL
+  date created: 2019-05-01
+  organization: Google, CMU
+  innovation: XLNet introduces a generalized autoregressive pretraining method that captures bidirectional context by considering all possible permutations of the factorization order. This approach overcomes BERT's limitations related to data corruption and token independence. Additionally, XLNet integrates techniques from Transformer-XL and offers architectural improvements for permutation-based modeling.
+  pretraining architecture: Decoder
+  pretraining task: Causal language modeling
+  training corpus: Same as BERT + Giga5 (16GB text), and and aggressively filtered ClueWeb 2012-B (19GB), Common Crawl (110 GB)
+  optimizer: Adam weight decay optimizer
+  number of parameters: Base=117M, Large=360M
+  maximum number of parameters (in million): 360
+  hardware used: TPUv3
+  hardware information: train on 512 TPU v3 chips for 500K steps with an Adam weight decay optimizer, linear learning rate decay, and a batch size of 8192, which takes about 5.5 days
+  extension: This model basically adapts Transformer XL architecture to permutation-based LM
+  application: General language tasks
+  has source code: https://huggingface.co/docs/transformers/model_doc/xlnet
+  blog post: https://towardsdatascience.com/xlnet-explained-in-simple-terms-255b9fb2c97c
+  license: Open, MIT license
+  research problem: Large Language Models (LLMs), transformer model
   ```
   
-- **Galactica** [[Meta]]() Nov. 2022 [[open]](https://huggingface.co/facebook/galactica-1.3b)
-  A scientific language model trained on over 48 million scientific texts [[Preprint]](https://arxiv.org/pdf/2211.09085.pdf)
-  
-  ```yaml
-  Field: Language
-  Params: 125M, 1.3B, 6.7B, 30B, 120B
-  ```
-
-- **Pythia** [[EleutherAI]]() Oct. 2022 [[open]](https://github.com/EleutherAI/pythia)
-  
-  ```yaml
-  Field: Language
-  Params: 12B
-  Instruction-tuned Variants: Dolly 2.0
-  License: Apache 2.0
-  Context Length: 2048
-  ```
-
-- **GLM-130B** [[BAAI]](https://keg.cs.tsinghua.edu.cn/glm-130b/zh/posts/glm-130b/) Oct. 2022 [[open]](https://github.com/THUDM/GLM-130B)  
-   GLM-130B: An Open Bilingual Pre-trained Model [[ICLR'23]](https://arxiv.org/pdf/2210.02414.pdf)
-
-  ```yaml
-  Field: Language
-  Params: 130B
-  Training Data: (400B tokens)
-  Training Cost: 516,096 A100 hours = 768 40G-A100 x 28 days
-  Training Framework: Megatron + Deepspeed
-  ```
-
-- **UL2** [[Google]]() May 2022 [[open]](https://huggingface.co/google/ul2)  
-   Unifying Language Learning Paradigms [[Preprint]](https://arxiv.org/abs/2205.05131)
-
-  ```yaml
-  Field: Language
-  Params: 20B (1T tokens)
-  Training Data: 800GB
-  Achitecture: En-De
-  Training Framework: Jax + T5x
-  License: Apache 2.0
-  Instruction-tuned Variants: Flan-UL2
-  Context Length: 2048
-  ```
-
-- **OPT** [[Meta]](https://ai.facebook.com/blog/democratizing-access-to-large-scale-language-models-with-opt-175b/) May 2022 [[open]](https://github.com/facebookresearch/metaseq)  
-   OPT: Open Pre-trained Transformer Language Models [[Preprint]](https://arxiv.org/abs/2205.01068)
-
-  ```yaml
-  Field: Language
-  Params: 175B
-  Training Data: 800GB (180B tokens)
-  Training Cost: 809,472 A100 hours =  992 80G-A100 x 34 days
-  Training Power Consumption: 356 MWh
-  Architecutre: De
-  Training Framework: Megatron + Fairscale
-  ```
-
-- **PaLM** [[Google]](https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html) Apr. 2022 [close]  
-   PaLM: Scaling Language Modeling with Pathways [[Preprint]](https://arxiv.org/abs/2204.02311)
-
-  ```yaml
-  Field: Language
-  Params: 550B
-  Training Data: 3TB (780B tokens)
-  Training Cost: $10M (16,809,984 TPUv4core-hours, 64 days)
-  Training petaFLOPs: 2.5B
-  Architecture: De
-  Training Framework: Jax + T5x
-  ```
-
-- **GPT-NeoX** [[EleutherAI]](https://blog.eleuther.ai/announcing-20b/) Apr. 2022 [[open]](https://github.com/EleutherAI/gpt-neox)  
-   GPT-NeoX-20B: An Open-Source Autoregressive Language Model [[Preprint]](https://arxiv.org/abs/2204.06745)
-
-  ```yaml
-  Field: Language
-  Params: 20B
-  Training Data: 525GiB
-  Training petaFLOPs: 93B
-  Architecture: De
-  Training Framework: Megatron + Fairscale
-  License: Apache 2.0
-  Context Length: 2048
-  ```
-
-- **InstructGPT** [[OpenAI]]() Mar. 2022 [close]  
-   Training language models to follow instructions with human feedback [[Preprint]](https://arxiv.org/abs/2203.02155)
-
-  ```yaml
-  Field: Language
-  Params: 175B
-  ```
-
-- **Chinchilla** [[DeepMind]](https://www.deepmind.com/publications/an-empirical-analysis-of-compute-optimal-large-language-model-training) Mar. 2022 [close]  
-   Training Compute-Optimal Large Language Models [[Preprint]](https://arxiv.org/abs/2203.15556)
-
-  ```yaml
-  Field: Language
-  Params: 70B
-  Training Data: 5.2TB (1.4T tokens)
-  Training petaFLOPs: 580M
-  Architecture: De
-  ```
-
-- **EVA 2.0** [[BAAI]](https://wudaoai.cn/model/detail/EVA) Mar. 2022 [[open]](https://openi.pcl.ac.cn/BAAI/WuDao-Model/src/branch/master)  
-   EVA2.0: Investigating Open-Domain Chinese Dialogue Systems with Large-Scale Pre-Training [[Preprint]](https://arxiv.org/abs/2203.09313)
-
-  ```yaml
-  Field: Language (Dialogue)
-  Params: 2.8B
-  Training Data: 180G (1.4B samples, Chinese)
-  ```
-
-- **AlphaCode** [[DeepMind]](https://www.deepmind.com/blog/competitive-programming-with-alphacode) Mar. 2022 [close]  
-   Competition-Level Code Generation with AlphaCode [[Preprint]](https://arxiv.org/abs/2203.07814)
-
-  ```yaml
-  Field: Code Generation
-  Params: 41B
-  Training Data: (967B tokens)
-  Architecture: De
-  ```
-
-- **ST-MoE** [[Google]]() Feb. 2022 [close]  
-   ST-MoE: Designing Stable and Transferable Sparse Expert Models [[Preprint]](https://arxiv.org/abs/2202.08906)
-
-  ```yaml
-  Field: Language
-  Params: 296B
-  Architecture: En-De, MoE
-  ```
-
-- **LaMDA** [[Google]](https://arxiv.org/abs/2201.08239) Jan. 2022 [close]  
-   LaMDA: Language Models for Dialog Applications [[Preprint]](https://arxiv.org/abs/2201.08239)
-
-  ```yaml
-  Field: Language (Dialogue)
-  Params: 137B
-  Training Data: (1.56T words)
-  Training petaFLOPs: 360M
-  Architecture: De
-  ```
-
-- **GLaM** [[Google]](https://ai.googleblog.com/2021/12/more-efficient-in-context-learning-with.html) Dec. 2021 [close]  
-   GLaM: Efficient Scaling of Language Models with Mixture-of-Experts [[Preprint]](https://arxiv.org/abs/2112.06905)
-
-  ```yaml
-  Field: Language
-  Params: 1.2T
-  Architecture: De, MoE
-  ```
-
-- **Gopher** [[DeepMind]](https://www.deepmind.com/blog/language-modelling-at-scale-gopher-ethical-considerations-and-retrieval) Dec. 2021 [close]  
-   Scaling Language Models: Methods, Analysis & Insights from Training Gopher [[Preprint]](https://arxiv.org/abs/2112.11446)
-
-  ```yaml
-  Field: Language
-  Params: 280B
-  Training Data: 1.3TB (300B tokens)
-  Training petaFLOPs: 630M
-  Architecture: De
-  ```
-
-- **Yuan 1.0** [[inspur]](https://air.inspur.com/home) Oct. 2021 [close]  
-   Yuan 1.0: Large-Scale Pre-trained Language Model in Zero-Shot and Few-Shot Learning [[Preprint]](https://arxiv.org/abs/2110.04725)
-
-  ```yaml
-  Field: Language
-  Params: 245B
-  Training Data: 5TB (180B tokens, Chinese)
-  Training petaFLOPs: 410M
-  Architecture: De, MoE
-  ```
-
-- **MT-NLG** [[Microsoft, Nvidia]](https://www.microsoft.com/en-us/research/blog/using-deepspeed-and-megatron-to-train-megatron-turing-nlg-530b-the-worlds-largest-and-most-powerful-generative-language-model/) Oct. 2021 [close]  
-   Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model [[Preprint]](https://arxiv.org/abs/2201.11990)
-
-  ```yaml
-  Field: Language
-  Params: 530B
-  Training Data: 339B tokens
-  Training petaFLOPs: 1.4B
-  Architecture: De
-  ```
-
-- **Plato-XL** [[Baidu]](http://research.baidu.com/Blog/index-view?id=163) Sept. 2021 [close]  
-   PLATO-XL: Exploring the Large-scale Pre-training of Dialogue Generation [[Preprint]](https://arxiv.org/abs/2109.09519)
-
-  ```yaml
-  Field: Language (Dialogue)
-  Params: 11B
-  Training Data: (1.2B samples)
-  ```
-
-- **GPT-J** [[EleutherAI]](https://arankomatsuzaki.wordpress.com/2021/06/04/gpt-j/) Aug. 2021 [[open]](https://github.com/kingoflolz/mesh-transformer-jax)  
-
-  ```yaml
-  Field: Language
-  Params: 6B
-  Programming Language: Jax
-  ```
-
-- **Jurassic-1** [[AI21 Labs]](https://www.zdnet.com/article/watch-out-gpt-3-here-comes-ai21s-jurassic-language-model/) Aug. 2021 [close]  
-   Jurassic-1: Technical Details and Evaluation [[Preprint]](https://uploads-ssl.webflow.com/60fd4503684b466578c0d307/61138924626a6981ee09caf6_jurassic_tech_paper.pdf)
-
-  ```yaml
-  Field: Language
-  Params: 178B
-  Training petaFLOPs: 370M
-  Architecture: De
-  ```
-
-- **Codex** [[OpenAI]](https://openai.com/blog/openai-codex/) July 2021 [close]  
-   Evaluating Large Language Models Trained on Code [[Preprint]](https://arxiv.org/abs/2107.03374)
-
-  ```yaml
-  Field: Code Generation
-  Params: 12B
-  Training Data: 159GB
-  Architecture: De
-  ```
-
-- **ERNIE 3.0** [[Baidu]](https://wenxin.baidu.com/wenxin/ernie) July 2021 [close]  
-   ERNIE 3.0: Large-scale Knowledge Enhanced Pre-training for Language Understanding and Generation [[Preprint]](https://arxiv.org/abs/2107.02137)
-
-  ```yaml
-  Field: Language
-  Params: 10B
-  Training Data: 4TB (375B tokens, with knowledge graph)
-  Architecture: En
-  Objective: MLM
-  ```
-
-- **CPM-2** [[BAAI]]() June 2021 [[open]](https://openi.pcl.ac.cn/BAAI/WuDao-Model/src/branch/master)  
-   CPM-2: Large-scale Cost-effective Pre-trained Language Models [[Preprint]](https://arxiv.org/abs/2106.10715)
-
-  ```yaml
-  Field: Language
-  Params: 198B
-  Training Data: 2.6TB (Chinese 2.3TB, English 300GB)
-  Architecture: En-De
-  Objective: MLM
-  ```
-
-- **HyperClova** [[Naver]](https://www.navercorp.com/promotion/pressReleasesView/30546) May 2021 [close]  
-   What Changes Can Large-scale Language Models Bring? Intensive Study on HyperCLOVA: Billions-scale Korean Generative Pretrained Transformers [[Preprint]](https://arxiv.org/abs/2109.04650v1)
-
-  ```yaml
-  Field: Language
-  Params: 82B
-  Training Data: 562B tokens (Korean)
-  Training petaFLOPs: 63B
-  Architecture: De
-  ```
-
-- **ByT5** [[Google]]() May 2021 [[open]](https://github.com/google-research/byt5)  
-   ByT5: Towards a token-free future with pre-trained byte-to-byte models [[TACL'22]](https://arxiv.org/abs/2105.13626)
-
-  ```yaml
-  Field: Language
-  Params: 13B
-  Training Data: (101 languages)
-  Architecture: En-De
-  ```
-
-- **PanGu-α** [[Huawei]]() Apr. 2021 [close]  
-   PanGu-α: Large-scale Autoregressive Pretrained Chinese Language Models with Auto-parallel Computation [[Preprint]](https://arxiv.org/abs/2104.12369)
-
-  ```yaml
-  Field: Language
-  Params: 200B
-  Training Data: 1.1TB (Chinese)
-  Training petaFLOPs: 58M
-  Architecture: De
-  ```
-
-- **mT5** [[Google]]() Mar. 2021 [[open]](https://github.com/google-research/multilingual-t5)  
-   mT5: A massively multilingual pre-trained text-to-text transformer [[Preprint]](https://arxiv.org/abs/2010.11934)
-
-  ```yaml
-  Field: Language
-  Params: 13B
-  Training Data: (101 languages)
-  Architecture: En-De
-  ```
-
-- **WuDao-WenHui** [[BAAI]]() Mar. 2021 [[open]](https://openi.pcl.ac.cn/BAAI/WuDao-Model/src/branch/master/Transformer-XL)
-
-  ```yaml
-  Field: Language
-  Params: 2.9B
-  Training Data: 303GB (Chinese)
-  ```
-
-- **GLM** [[BAAI]]() Mar. 2021 [[open]](https://openi.pcl.ac.cn/BAAI/WuDao-Model/src/branch/master/GLM)  
-   GLM: General Language Model Pretraining with Autoregressive Blank Infilling [[Preprint]](https://arxiv.org/abs/2103.10360)
-
-  ```yaml
-  Field: Language
-  Params: 10B
-  Architecture: De
-  ```
-
-- **Switch Transformer** [[Google]]() Jan. 2021 [[open]](https://github.com/google-research/t5x)  
-   Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity [[Preprint]](https://arxiv.org/abs/2101.03961)
-
-  ```yaml
-  Field: Language
-  Params: 1.6T
-  Training Data: 750GB
-  Training petaFLOPs: 82M
-  Architecture: En-De, MoE
-  Objective: MLM
-  ```
-
-- **CPM** [[BAAI]]() Dec. 2020 [[open]](https://github.com/TsinghuaAI/CPM)  
-   CPM: A Large-scale Generative Chinese Pre-trained Language Model [[Preprint]](https://arxiv.org/abs/2012.00413)
-
-  ```yaml
-  Field: Language
-  Params: 2.6B
-  Training Data: 100G (Chinese)
-  Training petaFLOPs: 1.8M
-  Architecture: De
-  Objective: LTR
-  ```
-
-- **GPT-3** [[OpenAI]](https://openai.com/api/) May 2020 [close]  
-   Language Models are Few-Shot Learners [[NeurIPS'20]](https://papers.nips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf)
-
-  ```yaml
-  Field: Language
-  Params: 175B
-  Training Data: 45TB (680B Tokens)
-  Training Time: 95 A100 GPU years (835584 A100 GPU hours, 355 V100 GPU years)
-  Training Cost: $4.6M
-  Training petaFLOPs: 310M
-  Architecture: De
-  Obective: LTR
-  Instruction-tuned Variants: InstructGPT, WebGPT, ChatGPT
-  ```
-
-- **Blender** [[Meta]](https://ai.facebook.com/blog/blender-bot-2-an-open-source-chatbot-that-builds-long-term-memory-and-searches-the-internet/) Apr. 2020 [[close]](https://huggingface.co/facebook/blenderbot-90M?text=Hey+my+name+is+Thomas%21+How+are+you%3F)  
-   Recipes for building an open-domain chatbot [[Preprint]](https://arxiv.org/abs/2004.13637)
-
-  ```yaml
-  Field: Language (Dialogue)
-  Params: 9.4B
-  ```
-
-- **T-NLG** [[Microsoft]](https://www.microsoft.com/en-us/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft/) Feb. 2020 [close]
-
-  ```yaml
-  Field: Language
-  Params: 17B
-  Training petaFLOPs: 16M
-  Architecture: De
-  Obective: LTR
-  ```
-
-- **Meena** [[Google]](https://ai.googleblog.com/2020/01/towards-conversational-agent-that-can.html) Jan. 2020 [close]  
-   Towards a Human-like Open-Domain Chatbot [[Preprint]](https://arxiv.org/abs/2001.09977)
-
-  ```yaml
-  Field: Language (Dialogue)
-  Params: 2.6B
-  Training Data: 341GB (40B words)
-  Training petaFLOPs: 110M
-  ```
-
-- **DialoGPT** [[Microsoft]](https://www.microsoft.com/en-us/research/project/large-scale-pretraining-for-response-generation/) Nov. 2019 [[open]](https://github.com/microsoft/DialoGPT)  
-   DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation [[ACL'20]](https://arxiv.org/abs/1911.00536)
-
-  ```yaml
-  Field: Language (Dialogue)
-  Params: 762M
-  Training Data: (147M conversation)
-  Architecture: De
-  ```
-
-- **T5** [[Google]](https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html) Oct. 2019 [[open]](https://github.com/google-research/text-to-text-transfer-transformer)  
-   Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer [[JMLR'19]](https://arxiv.org/abs/1910.10683)
-
-  ```yaml
-  Field: Language
-  Params: 11B
-  Training Data: 800GB
-  Training Cost: $1.5M
-  Training petaFLOPs: 41M
-  Architecture: En-De
-  Obective: MLM
-  License: Apache 2.0
-  Instruction-tuned Variants: Flan-T5
-  Context-Length: 512
-  ```
-
-- **Megatron-LM** [[Nvidia]]() Sept. 2019 [[open]](https://github.com/NVIDIA/Megatron-LM)  
-   Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism [[Preprint]](https://arxiv.org/abs/1909.08053)
-
-  ```yaml
-  Field: Language
-  Params: 8.3B
-  Training Data: 174GB
-  Training petaFLOPs: 9.1M
-  Architecture: De
-  Obective: LTR
-  Training Framework: Megatron
-  ```
-
-- **Megatron-BERT** [[Nvidia]]() Sept. 2019 [[open]](https://github.com/NVIDIA/Megatron-LM)  
-   Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism [[Preprint]](https://arxiv.org/abs/1909.08053)
-
-  ```yaml
-  Field: Language
-  Params: 3.9B
-  Training Data: 174GB
-  Training petaFLOPs: 57M
-  Architecture: En
-  Obective: MLM
-  Training Framework: Megatron
-  ```
-
-- **RoBERTa** [[Meta]](https://ai.facebook.com/blog/roberta-an-optimized-method-for-pretraining-self-supervised-nlp-systems/) July 2019 [[open]](https://github.com/facebookresearch/fairseq)  
-   RoBERTa: A Robustly Optimized BERT Pretraining Approach [[Preprint]](https://arxiv.org/abs/1907.11692)
-
-  ```yaml
-  Field: Language
-  Params: 354M
-  Training Data: 160GB
-  Training Time: 1024 V100 GPU days
-  Architecture: En
-  Objective: MLM
-  ```
-
-- **XLNet** [[Google]]() June 2019 [[open]](https://github.com/zihangdai/xlnet)  
-   XLNet: Generalized Autoregressive Pretraining for Language Understanding [[NeurIPS'19]](https://papers.nips.cc/paper/2019/hash/dc6a7e655d7e5840e66733e9ee67cc69-Abstract.html)
-
-  ```yaml
-  Field: Language
-  Params: 340M
-  Training Data: 113GB (33B words)
-  Training Time: 1280 TPUv3 days
-  Training Cost: $245k
-  Architecture: En
-  Objective: PLM
-  ```
-
-- **GPT-2** [[OpenAI]](https://openai.com/blog/better-language-models/) Feb. 2019 [[open]](https://github.com/openai/gpt-2)  
-   Language Models are Unsupervised Multitask Learners [[Preprint]](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
-
-  ```yaml
-  Field: Language
-  Params: 1.5B
-  Training Data: 40GB (8M web pages)
-  Training Cost: $43k
-  Training petaFLOPs: 1.5M
-  Architecture: De
-  Objective: LTR
-  ```
-
-- **BERT** [[Google]]() Oct. 2018 [[open]](https://github.com/google-research/bert)  
-   BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding [[NAACL'18]](https://arxiv.org/abs/1810.04805)
-
-  ```yaml
-  Field: Language
-  Params: 330M
-  Training Data: 16GB (3.3B words)
-  Training Time: 64 TPUv2 days (280 V100 GPU days)
-  Training Cost: $7k
-  Training petaFLOPs: 290k
-  Architecture: En
-  Objective: MLM, NSP
-  ```
-
-- **GPT** [[OpenAI]](https://openai.com/blog/language-unsupervised/) June 2018 [open]
-  Improving Language Understanding by Generative Pre-Training [[Preprint]](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)
-
-  ```yaml
-  Field: Language
-  Params: 117M
-  Training Data: 1GB (7k books)
-  Training petaFLOPs: 18k
-  Architecture: De
-  Objective: LTR
-  ```
-
-### Vision Models
-
-- **Eva02-E** [[BAAI]]() Mar. 2023 [[open]](https://github.com/huggingface/pytorch-image-models/tree/main)  
-  EVA-02: A Visual Representation for Neon Genesis [[Preprint]](https://arxiv.org/abs/2303.11331v2)
-
-  ```yaml
-  Field: Vision-Language
-  Params: 5B
-  Training Data: 2B image-text pairs
-  Architecture: Transformer
-  Objective: MIM, Clip Constrastive
-  ```
-
-- **MAE->WSP-2B** [[Meta]]() Mar. 2023 [close]  
-   The effectiveness of MAE pre-pretraining for billion-scale pretraining [[Preprint]](https://arxiv.org/abs/2303.13496)
-
-  ```yaml
-  Field: Vision
-  Params: 6.5B
-  Training Data: 3B images
-  Architecture: Transformer
-  Objective: MAE, Weakly-Supervised
-  ```
-
-- **OpenCLIP G/14** [[LAION]]() Mar. 2023 [[open]](https://huggingface.co/laion/CLIP-ViT-g-14-laion2B-s12B-b42K)
-
-  ```yaml
-  Field: Vision-Language
-  Params: 2.5B
-  Training Data: 2B images
-  ```
-
-- **ViT-22B** [[Google]]() Feb. 2023 [close]  
-  [Scaling Vision Transformers to 22 Billion Parameters](https://arxiv.org/abs/2302.05442)
-
-  ```yaml
-  Field: Vision
-  Params: 22B
-  Training Data: 4B images
-  Architecture: Transformer
-  Objective: Supervised
-  ```
-
-- **ERNIE-ViLG** [[Baidu]](https://wenxin.baidu.com/wenxin/ernie-vilg) Dec. 2022 [close]  
-   ERNIE-ViLG: Unified Generative Pre-training for Bidirectional Vision-Language Generation [[Preprint]](https://arxiv.org/abs/2112.15283)
-
-  ```yaml
-  Field: Image Generation (text to image)
-  Params: 10B
-  Training Data: 145M text-image pairs
-  Architecture: Transformer, dVAE + De
-  ```
-
-- **InternImage-G** [[Shanghai AI Lab]](https://github.com/OpenGVLab/InternImage) Nov. 2022 [[open]](https://github.com/OpenGVLab/InternImage)
-  InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions [[CVPR'23 Highlight]](https://arxiv.org/abs/2211.05778)
-
-  ```yaml
-  Field: Vision
-  Params: 3B
-  Architecture: CNN
-  Core Operator: Deformable Convolution v3
-  ```
-
-- **Stable Diffusion** [[Stability AI]]() Aug. 2022 [[open]]()
-
-  ```yaml
-  Field: Image Generation (text to image)
-  Params: 890M
-  Training Data: 5B images
-  Architecture: Transformer, Diffusion
-  ```
-
-- **Imagen** [[Google]](https://imagen.research.google/) May 2022  
-   Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding [[Preprint]](https://arxiv.org/abs/2205.11487)
-
-  ```yaml
-  Field: Image Generation (text to image)
-  Text Encoder: T5
-  Image Decoder: Diffusion, Upsampler
-  ```
-
-- **Flamingo** [[DeepMind]]() Apr. 2022 [close]  
-   Flamingo: a Visual Language Model for Few-Shot Learning [[Preprint]](https://arxiv.org/abs/2204.14198)
-
-  ```yaml
-  Field: Vision-Language
-  Params: 80B
-  ```
-
-- **DALL·E 2** [[OpenAI]](https://openai.com/dall-e-2/) Apr. 2022  
-   Hierarchical Text-Conditional Image Generation with CLIP Latents [[Preprint]](https://cdn.openai.com/papers/dall-e-2.pdf)
-
-  ```yaml
-  Field: Image Generation (text to image)
-  Text Encoder: GPT2 (CLIP)
-  Image Encoder: ViT (CLIP)
-  Image Decoder: Diffusion, Upsampler
-  ```
-
-- **BaGuaLu** [[BAAI, Alibaba]]() Apr. 2022  
-   BaGuaLu: targeting brain scale pretrained models with over 37 million cores [[PPoPP'22]](https://keg.cs.tsinghua.edu.cn/jietang/publications/PPOPP22-Ma%20et%20al.-BaGuaLu%20Targeting%20Brain%20Scale%20Pretrained%20Models%20w.pdf)
-
-  ```yaml
-  Field: Vision-Language
-  Params: 174T
-  Architecture: M6
-  ```
-
-- **SEER** [[Meta]]() Feb. 2022 [[open]](https://github.com/facebookresearch/vissl)  
-   Vision Models Are More Robust And Fair When Pretrained On Uncurated Images Without Supervision [[Preprint]](https://arxiv.org/abs/2202.08360v2)
-
-  ```yaml
-  Field: Vision
-  Params: 10B
-  Training Data: 1B images
-  Architecture: Convolution
-  Objective: SwAV
-  ```
-
-- **ERNIE-ViLG** [[Baidu]](https://wenxin.baidu.com/wenxin/ernie-vilg) Dec. 2021  
-   ERNIE-ViLG: Unified Generative Pre-training for Bidirectional Vision-Language Generation [[Preprint]](https://arxiv.org/abs/2112.15283)
-
-  ```yaml
-  Field: Image Generation (text to image)
-  Params: 10B
-  Training Data: 145M text-image pairs
-  Architecture: Transformer, dVAE + De
-  ```
-
-- **NUWA** [[Microsoft]]() Nov. 2021 [[open]](https://github.com/microsoft/NUWA)  
-   NÜWA: Visual Synthesis Pre-training for Neural visUal World creAtion [[Preprint]](https://arxiv.org/abs/2111.12417)
-
-  ```yaml
-  Field: Vision-Language
-  Generatioon: Image, Video
-  Params: 870M
-  ```
-
-- **SwinV2-G** [[Google]]() Nov. 2021 [[open]](https://github.com/microsoft/Swin-Transformer)  
-   Swin Transformer V2: Scaling Up Capacity and Resolution [[CVPR'22]](https://arxiv.org/abs/2111.09883v2)
-
-  ```yaml
-  Field: Vision
-  Params: 3B
-  Training Data: 70M
-  Architecture: Transformer
-  Objective: Supervised
-  ```
-
-- **Zidongtaichu** [[CASIA]](http://www.ia.cas.cn/xwzx/kydt/202109/t20210927_6215538.html) Sept. 2021 [close]
-
-  ```yaml
-  Field: Image, Video, Language, Speech
-  Params: 100B
-  ```
-
-- **ViT-G/14** [[Google]]() June 2021  
-   Scaling Vision Transformers [[Preprint]](https://arxiv.org/abs/2106.04560)
-
-  ```yaml
-  Field: Vision
-  Params: 1.8B
-  Training Data: 300M images
-  Training petaFLOPs: 3.4M
-  Architecture: Transformer
-  Objective: Supervised
-  ```
-
-- **CoAtNet** [[Google]](https://ai.googleblog.com/2021/09/toward-fast-and-accurate-neural.html) June 2021 [[open]](https://github.com/chinhsuanwu/coatnet-pytorch)  
-   CoAtNet: Marrying Convolution and Attention for All Data Sizes [[NeurIPS'21]](https://arxiv.org/abs/2106.04803)
-
-  ```yaml
-  Field: Vision
-  Params: 2.4B
-  Training Data: 300M images
-  Architecture: Transformer, Convolution
-  Objective: Supervised
-  ```
-
-- **V-MoE** [[Google]](https://ai.googleblog.com/2022/01/scaling-vision-with-sparse-mixture-of.html) June 2021  
-   Scaling Vision with Sparse Mixture of Experts [[NeurIPS'21]](https://proceedings.neurips.cc//paper/2021/file/48237d9f2dea8c74c2a72126cf63d933-Paper.pdf)
-
-  ```yaml
-  Field: Vision
-  Params: 15B
-  Training Data: 300M images
-  Training Time: 16.8k TPUv3 days
-  Training petaFLOPs: 33.9M
-  Architecture: Transformer, MoE
-  Objective: Supervised
-  ```
-
-- **CogView** [[BAAI, Alibaba]](https://wudao.aminer.cn/CogView/index.html) May 2021 [</>](https://github.com/THUDM/CogView)  
-   CogView: Mastering Text-to-Image Generation via Transformers [[NeurIPS'21]](https://arxiv.org/abs/2105.13290)
-
-  ```yaml
-  Field: Vision-Language
-  Params: 4B
-  Training Data: 30M text-image pairs
-  Training petaFLOPs: 27M
-  Image Encoder: VAE
-  Text Encoder & Image Decoder: GPT2
-  ```
-
-- **M6** [[Alibaba]](https://m6.aliyun.com/#/) Mar. 2021  
-   M6: A Chinese Multimodal Pretrainer [[Preprint]](https://arxiv.org/abs/2103.00823)
-
-  ```yaml
-  Field: Vision-Language
-  Params: 10T
-  Training Data: 300G Texts + 2TB Images
-  Training petaFLOPs: 5.5M
-  Fusion: Single-stream
-  Objective: MLM, IC
-  ```
-
-- **DALL·E** [[OpenAI]](https://openai.com/blog/dall-e/) Feb. 2021  
-   Zero-Shot Text-to-Image Generation [[ICML'21]](https://arxiv.org/abs/2102.12092)
-
-  ```yaml
-  Field: Image Generation (text to image)
-  Params: 12B
-  Training Data: 250M text-images pairs
-  Training petaFLOPs: 47M
-  Image Encoder: dVAE
-  Text Encoder & Image Decoder: GPT2
-  ```
-
-- **CLIP** [[OpenAI]](https://openai.com/blog/clip/) Jan. 2021  
-   Learning Transferable Visual Models From Natural Language Supervision [[ICML'22]](https://arxiv.org/abs/2103.00020)
-
-  ```yaml
-  Field: Vision-Language
-  Training Data: 400M text-image pairs
-  Training petaFLOPs: 11M
-  Image Encoder: ViT
-  Text Encoder: GPT-2
-  Fusion: Dual Encoder
-  Objective: CMCL
-  ```
-
-- **ViT-H/14** [[Google]](https://ai.googleblog.com/2020/12/transformers-for-image-recognition-at.html) Oct. 2020 [[open]](https://github.com/google-research/vision_transformer)  
-   An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale [[ICLR'20]](https://arxiv.org/abs/2010.11929)
-
-  ```yaml
-  Field: Vision
-  Params: 632M
-  Training Data: 300M images
-  Training petaFLOPs: 13M
-  Architecture: Transformer
-  Objective: Supervised
-  ```
-
-- **iGPT-XL** [[OpenAI]](https://openai.com/blog/image-gpt/) June 2020 [[open]](https://github.com/openai/image-gpt)  
-   Generative Pretraining From Pixels [[ICML'20]](https://proceedings.mlr.press/v119/chen20s.html)
-
-  ```yaml
-  Field: Image Generation
-  Params: 6.8B
-  Training Data: 1M images
-  Training petaFLOPs: 33M
-  Architecture: Transformer, De
-  ```
-
-- **BigGAN-deep** [[DeepMind]]() Sept. 2018 [[open]](https://github.com/ajbrock/BigGAN-PyTorch)  
-   Large Scale GAN Training for High Fidelity Natural Image Synthesis [[ICLR'19]](https://arxiv.org/abs/1809.11096)
-
-  ```yaml
-  Field: Image Generation
-  Params: 158M
-  Training Data: 300M images
-  Training petaFLOPs: 3M
-  Architecture: Convolution, GAN
-  Resolution: 512x512
-  ```
-
-### Reinforcement Learning
-
-- **PaLM-E** [[Google]](https://palm-e.github.io/) March 2023 [close]  
-   PaLM-E: An Embodied Multimodal Language Model [[Preprint]](https://palm-e.github.io/assets/palm-e.pdf)
-
-  ```yaml
-  Field: Reinforcement Learning
-  Params: 562B (540B LLM + 22B Vi)
-  ```
-
-- **Gato** [[DeepMind]](https://www.deepmind.com/publications/a-generalist-agent) May 2022 [close]  
-   A Generalist Agent [[Preprint]](https://arxiv.org/abs/2205.06175)
-
-  ```yaml
-  Field: Reinforcement Learning
-  Params: 1.2B
-  Training Data: (604 Tasks)
-  Objective: Supervised
-  ```
-
-### Speech
-
-- **USM** [[Google]](https://sites.research.google/usm/) Mar. 2023 [close]  
-  Google USM: Scaling Automatic Speech Recognition Beyond 100 Languages [[Preprint]](https://arxiv.org/pdf/2303.01037v2.pdf)
-
-  ```yaml
-  Field: Speech
-  Params: 2B
-  Training Data: 12,000,000 hours
-  ```
-
-- **Whisper** [[OpenAI]](https://openai.com/research/whisper) Sept. 2022 [[close]](https://github.com/openai/whisper)  
-   Robust Speech Recognition via Large-Scale Weak Supervision [[Preprint]](https://arxiv.org/pdf/2212.04356.pdf)
-
-  ```yaml
-  Field: Speech
-  Params: 1.55B
-  Training Data: 680,000 hours
-  Objective: Weakly Supervised
-  ```
-
-- **HuBERT** [[Meta]](https://ai.facebook.com/blog/hubert-self-supervised-representation-learning-for-speech-recognition-generation-and-compression/) June 2021 [[open]](https://github.com/facebookresearch/fairseq/tree/main/examples/hubert)  
-   HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units [[Preprint]](https://arxiv.org/abs/2106.07447)
-
-  ```yaml
-  Field: Speech
-  Params: 1B
-  Training Data: 60,000 hours
-  Objective: MLM
-  ```
-
-- **wav2vec 2.0** [[Meta]]() Oct. 2020 [[open]](https://github.com/facebookresearch/fairseq/tree/main/examples/wav2vec)  
-   wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations [[NeurIPS'20]](https://arxiv.org/abs/2006.11477)
-
-  ```yaml
-  Field: Speech
-  Params: 317M
-  Training Data: 50,000 hours
-  Training petaFLOPs: 430M
-  Objective: MLM
+#### Pengcheng Lab, and Baidu
+
+- ERNIE
+
+  ```yaml
+  Title: ERNIE: Enhanced Language Representation with Informative Entities
+  model family: BERT
+  date created: 2019-05-01
+  organization: Pengcheng Lab, Baidu
+  innovation: ERNIE innovatively incorporates knowledge from knowledge graphs (KGs) into language representation models. It fuses lexical, syntactic, and knowledge information, enabling enhanced performance on knowledge-driven tasks. This approach sets ERNIE apart from traditional models like BERT, which primarily rely on textual context.
+  pretraining architecture: Encoder
+  pretraining task: Masked Language Modeling
+  training corpus: English Wikipedia + Wikidata for entitites (note that they initialize model to original BERT parameter values
+  optimizer: Adam optimizer
+  number of parameters: Ernie-ViLG 2.0 = 10B, Ernie 3.0 Titan = 260B
+  maximum number of parameters (in million): 260000
+  extension: Uses BERT for Encoder architecture, but stacks and aggregates two of them for text and entities. This architecture could be understood as BERT for text + knowledge graphs
+  application: Knowledge intensive related tasks that might benefit from knowledge graphs or entities such as entity recognition
+  has source code: https://github.com/thunlp/ERNIE
+  blog post: http://research.baidu.com/Blog/index-view?id=160
+  license: closed source
+  research problem: Large Language Models (LLMs), transformer model
   ```
 
-- **DeepSpeech 2** [[Meta]]() Dec. 2015 [[open]](https://github.com/PaddlePaddle/PaddleSpeech)  
-   Deep Speech 2: End-to-End Speech Recognition in
-  English and Mandarin [[ICML'15]](https://arxiv.org/pdf/1512.02595.pdf)
 
-      ```yaml
-      Field: Speech
-      Params: 300M
-      Training Data: 21,340 hours
-      ```
 
 ## License
 
