@@ -56,7 +56,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   Context: 4096
   ```
 
-#### Falcon
+#### Google
 
   ```yaml
   Field: Language
