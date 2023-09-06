@@ -627,7 +627,7 @@
 - ERNIE
 
   ```yaml
-  ﻿"Title: ERNIE: Enhanced Language Representation with Informative Entities
+  Title: ERNIE: Enhanced Language Representation with Informative Entities
   model family: BERT
   date created: 2019-05-01
   organization: Pengcheng Lab, Baidu
@@ -652,7 +652,7 @@
 - RoBERTa
 
   ```yaml
-  ﻿"Title: RoBERTa: A Robustly Optimized BERT Pretraining Approach
+  Title: RoBERTa: A Robustly Optimized BERT Pretraining Approach
   model family: BERT
   date created: 2019-07-01
   organization: Google, University of Washington
@@ -677,7 +677,7 @@
 - CTRL
 
   ```yaml
-  ﻿"Title: CTRL: A Conditional Transformer Language Model for Controllable Generation
+  Title: CTRL: A Conditional Transformer Language Model for Controllable Generation
   date created: 2019-09-01
   organization: Salesforce
   innovation: The main innovation of the work in the context of LLMs appears to involve advancements in model architecture, training techniques, and multitask learning to enhance the performance, efficiency, and ethical considerations of language models.
@@ -703,7 +703,7 @@
 - AlphaFold
 
   ```yaml
-  ﻿"Title: Highly accurate protein structure prediction with AlphaFold
+  Title: Highly accurate protein structure prediction with AlphaFold
   model family: SE(3)-Transformer
   date created: 2019-09-01
   organization: Deepmind
@@ -724,7 +724,7 @@
 - Gopher
 
   ```yaml
-  ﻿"Title: Scaling Language Models: Methods, Analysis &amp; Insights from Training Gopher
+  Title: Scaling Language Models: Methods, Analysis &amp; Insights from Training Gopher
   model family: GPT
   date created: 2021-12-01
   organization: Deepmind
@@ -748,7 +748,7 @@
 - Chinchilla
 
   ```yaml
-  ﻿"Title: Training Compute-Optimal Large Language Models
+  Title: Training Compute-Optimal Large Language Models
   model family: GPT
   date created: 2022-03-01
   organization: Deepmind
@@ -772,7 +772,7 @@
 - GopherCite
 
   ```yaml
-  ﻿"Title: Teaching language models to support answers with verified quotes
+  Title: Teaching language models to support answers with verified quotes
   model family: Gopher
   date created: 2022-03-01
   organization: Deepmind
@@ -796,7 +796,7 @@
 - Flamingo
 
   ```yaml
-  ﻿"Title: Flamingo: a Visual Language Model for Few-Shot Learning
+  Title: Flamingo: a Visual Language Model for Few-Shot Learning
   model family: Chinchilla
   date created: 2022-04-01
   organization: Deepmind
@@ -820,7 +820,7 @@
 - Gato
 
   ```yaml
-  ﻿"Title: A Generalist Agent
+  Title: A Generalist Agent
   model family: “Control Transformers” (not per se a family, but grouping here those transformers that try to model more general control, RL-like, tasks)
   date created: 2022-05-01
   organization: Deepmind
@@ -843,7 +843,7 @@
 - Sparrow
 
   ```yaml
-  ﻿"Title: Improving alignment of dialogue agents via targeted human judgements
+  Title: Improving alignment of dialogue agents via targeted human judgements
   model family: GPT
   date created: 2022-09-01
   organization: Deepmind
@@ -870,7 +870,7 @@
 - BART
 
   ```yaml
-  ﻿"Title: BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension
+  Title: BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension
   model family: BERT for encoder, GPT for Decoder
   date created: 2019-10-01
   organization: Facebook
@@ -890,7 +890,7 @@
 - XLM-RoBERTa
 
   ```yaml
-  ﻿"Title: Unsupervised Cross-lingual Representation Learning at Scale
+  Title: Unsupervised Cross-lingual Representation Learning at Scale
   model family: RoBERTa
   date created: 2019-10-01
   organization: Facebook
@@ -913,7 +913,7 @@
 - mBART
 
   ```yaml
-  ﻿"Title: Multilingual Denoising Pre-training for Neural Machine Translation
+  Title: Multilingual Denoising Pre-training for Neural Machine Translation
   model family: BART
   date created: 2020-01-01
   organization: Facebook
@@ -937,7 +937,7 @@
 - HTLM
 
   ```yaml
-  ﻿"Title: HTLM: Hyper-Text Pre-Training and Prompting of Language Models
+  Title: HTLM: Hyper-Text Pre-Training and Prompting of Language Models
   model family: BART
   date created: 2021-07-01
   organization: Facebook
@@ -958,7 +958,7 @@
 - CM3
 
   ```yaml
-  ﻿"Title: CM3: A Causal Masked Multimodal Model of the Internet
+  Title: CM3: A Causal Masked Multimodal Model of the Internet
   model family: HTLM
   date created: 2022-01-01
   organization: Facebook
@@ -981,7 +981,7 @@
 - SeeKer
 
   ```yaml
-  ﻿"Title: Language Models that Seek for Knowledge: Modular Search & Generation for Dialogue and Prompt Completion
+  Title: Language Models that Seek for Knowledge: Modular Search & Generation for Dialogue and Prompt Completion
   model family: GPT (but can extend any family)
   date created: 2022-03-01
   organization: Facebook
@@ -1004,7 +1004,7 @@
 - OPT
 
   ```yaml
-  ﻿"Title: OPT: Open Pre-trained Transformer Language Models
+  Title: OPT: Open Pre-trained Transformer Language Models
   model family: GPT
   date created: 2022-05-01
   organization: Facebook
@@ -1029,7 +1029,7 @@
 - BlenderBot 3
 
   ```yaml
-  ﻿"Title: BlenderBot 3: a deployed conversational agent that continually learns to responsibly engage
+  Title: BlenderBot 3: a deployed conversational agent that continually learns to responsibly engage
   model family: GPT
   date created: 2022-08-01
   organization: Facebook
@@ -1056,7 +1056,7 @@
 - DialoGPT
 
   ```yaml
-  ﻿"Title: DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation
+  Title: DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation
   model family: GPT
   date created: 2019-10-01
   organization: Microsoft
@@ -1079,7 +1079,7 @@
 - DeBERTa
 
   ```yaml
-  ﻿"Title: Deberta: Decoding-enhanced bert with disentangled attention
+  Title: Deberta: Decoding-enhanced bert with disentangled attention
   model family: BERT
   date created: 2020-06-01
   organization: Microsoft
@@ -1104,7 +1104,7 @@
 - Swin Transformer
 
   ```yaml
-  ﻿"Title: Swin Transformer: Hierarchical Vision Transformer Using Shifted Windows
+  Title: Swin Transformer: Hierarchical Vision Transformer Using Shifted Windows
   model family: ViT
   date created: 2021-03-01
   organization: Microsoft
@@ -1127,7 +1127,7 @@
 - Godel
 
   ```yaml
-  ﻿"Title: Godel: Large-scale pre-training for goal-directed dialog
+  Title: Godel: Large-scale pre-training for goal-directed dialog
   model family: T5, GPT
   date created: 2022-06-01
   organization: Microsoft
@@ -1151,7 +1151,7 @@
 - E5
 
   ```yaml
-  ﻿"Title: Text Embeddings by Weakly-Supervised Contrastive Pre-training
+  Title: Text Embeddings by Weakly-Supervised Contrastive Pre-training
   model family: BERT
   date created: 2022-12-01
   organization: Microsoft
@@ -1176,7 +1176,7 @@
 - WizardLM
 
   ```yaml
-  ﻿"Title: WizardLM: Empowering Large Language Models to Follow Complex Instructions
+  Title: WizardLM: Empowering Large Language Models to Follow Complex Instructions
   model family: LLaMa
   date created: 2023-04-24
   organization: Microsoft
@@ -1200,7 +1200,7 @@
 - WizardMath
 
   ```yaml
-  ﻿"Title: WizardMath: Empowering Mathematical Reasoning for Large Language Models via Reinforced Evol-Instruct
+  Title: WizardMath: Empowering Mathematical Reasoning for Large Language Models via Reinforced Evol-Instruct
   model family: LLaMa
   date created: 2023-04-24
   organization: Microsoft
@@ -1221,7 +1221,7 @@
 - Orca
 
   ```yaml
-  ﻿"Title: Orca: Progressive learning from complex explanation traces of gpt-4
+  Title: Orca: Progressive learning from complex explanation traces of gpt-4
   model family: LLaMa
   date created: 2023-06-05
   organization: Microsoft
@@ -1244,7 +1244,7 @@
 - WizardCoder
 
   ```yaml
-  ﻿"Title: WizardCoder: Empowering Code Large Language Models with Evol-Instruct
+  Title: WizardCoder: Empowering Code Large Language Models with Evol-Instruct
   model family: StarCoder
   date created: 2023-06-14
   organization: Microsoft
@@ -1267,7 +1267,7 @@
 - DistilBERT
 
   ```yaml
-  ﻿"Title: DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter
+  Title: DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter
   model family: BERT
   date created: 2019-10-01
   organization: Huggingface
@@ -1293,7 +1293,7 @@
 - Pegasus
 
   ```yaml
-  ﻿"Title: PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization
+  Title: PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization
   model family: Transformer
   date created: 2019-12-01
   organization: Google, Imperial College London
@@ -1319,7 +1319,7 @@
 - ELECTRA
 
   ```yaml
-  ﻿"Title: ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators
+  Title: ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators
   model family: BERT
   date created: 2020-03-01
   organization: Google, Stanford
@@ -1345,7 +1345,7 @@
 - Megatron
 
   ```yaml
-  ﻿"Title: Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism
+  Title: Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism
   model family: T5, BERT, GPT
   date created: 2020-03-01
   organization: NVidia
@@ -1368,7 +1368,7 @@
 - Megatron-Turing NLG
 
   ```yaml
-  ﻿"Title: Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model
+  Title: Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model
   model family: GPT
   date created: 2021-10-01
   organization: NVidia
@@ -1390,7 +1390,7 @@
 - Global Context ViT
 
   ```yaml
-  ﻿"Title: Global Context Vision Transformers
+  Title: Global Context Vision Transformers
   model family: ViT
   date created: 2022-06-01
   organization: NVidia
@@ -1417,7 +1417,7 @@
 - GPT-Neo
 
   ```yaml
-  ﻿"Title: GPT-Neo: Large Scale Autoregressive Language Modeling with Mesh-Tensorflow
+  Title: GPT-Neo: Large Scale Autoregressive Language Modeling with Mesh-Tensorflow
   model family: GPT
   date created: 2021-03-01
   organization: EleutherAI
@@ -1438,7 +1438,7 @@
 - GPT-J
 
   ```yaml
-  ﻿"Title: GPT-J-6B: A 6 billion parameter autoregressive language model
+  Title: GPT-J-6B: A 6 billion parameter autoregressive language model
   model family: GPT
   date created: 2021-05-01
   organization: EleutherAI
@@ -1461,7 +1461,7 @@
 - GPT-NeoX-20B
 
   ```yaml
-  ﻿"Title: GPT-NeoX-20B: An Open-Source Autoregressive Language Model
+  Title: GPT-NeoX-20B: An Open-Source Autoregressive Language Model
   model family: GPT
   date created: 2022-04-01
   organization: EleutherAI
@@ -1486,7 +1486,7 @@
 - Pythia
 
   ```yaml
-  ﻿"Title: Pythia: A suite for analyzing large language models across training and scaling
+  Title: Pythia: A suite for analyzing large language models across training and scaling
   model family: Pythia
   date created: 2023-03-13
   organization: EleutherAI
@@ -1514,7 +1514,7 @@
 - Decision Transformers
 
   ```yaml
-  ﻿"Title: Decision Transformer: Reinforcement Learning via Sequence Modeling
+  Title: Decision Transformer: Reinforcement Learning via Sequence Modeling
   model family: GPT, Control Transformers” (not per se a family, but grouping here those transformers that try to model more general control, RL-like, tasks)
   date created: 2021-06-01
   organization: Facebook, Google, UC Berkeley
@@ -1538,7 +1538,7 @@
 - Trajectory Transformers
 
   ```yaml
-  ﻿"Title: Offline Reinforcement Learning as One Big Sequence Modeling Problem
+  Title: Offline Reinforcement Learning as One Big Sequence Modeling Problem
   model family: GPT, Control Transformers” (not per se a family, but grouping here those transformers that try to model more general control, RL-like, tasks)
   date created: 2021-06-01
   organization: UC Berkeley
@@ -1562,7 +1562,7 @@
 - Jurassic-1
 
   ```yaml
-  ﻿"Title: Jurassic-1: Technical details and evaluation
+  Title: Jurassic-1: Technical details and evaluation
   model family: GPT
   date created: 2021-09-01
   organization: AI21
@@ -1588,7 +1588,7 @@
 - Anthropic Assistant
 
   ```yaml
-  ﻿"Title: A General Language Assistant as a Laboratory for Alignment
+  Title: A General Language Assistant as a Laboratory for Alignment
   model family: Transformer
   date created: 2021-12-01
   organization: Anthropic
@@ -1610,7 +1610,7 @@
 - StableDiffusion
 
   ```yaml
-  ﻿"Title: High-Resolution Image Synthesis with Latent Diffusion Models
+  Title: High-Resolution Image Synthesis with Latent Diffusion Models
   model family: Diffusion
   date created: 2021-12-01
   organization: EleutherAI, Stability.ai, LMU Munich
@@ -1633,7 +1633,7 @@
 - DQ-BART
 
   ```yaml
-  ﻿"Title: DQ-BART: Efficient Sequence-to-Sequence Model via Joint Distillation and Quantization
+  Title: DQ-BART: Efficient Sequence-to-Sequence Model via Joint Distillation and Quantization
   model family: BART
   date created: 2022-03-01
   organization: Amazon
@@ -1654,7 +1654,7 @@
 - AlexaTM 20B
 
   ```yaml
-  ﻿"Title: Alexatm 20b: Few-shot learning using a large-scale multilingual seq2seq model
+  Title: Alexatm 20b: Few-shot learning using a large-scale multilingual seq2seq model
   model family: transformer
   date created: 2022-08-01
   organization: Amazon
@@ -1681,7 +1681,7 @@
 - GLM
 
   ```yaml
-  ﻿"Title: GLM: General language model pretraining with autoregressive blank infilling
+  Title: GLM: General language model pretraining with autoregressive blank infilling
   model family: GLM (General Language Model)
   date created: 2022-03-01
   organization: Tsinghua University
@@ -1709,7 +1709,7 @@
 - T0
 
   ```yaml
-  ﻿"Title: Multitask prompted training enables zero-shot task generalization
+  Title: Multitask prompted training enables zero-shot task generalization
   model family: T5
   date created: 2022-03-01
   organization: BigScience
@@ -1735,7 +1735,7 @@
 - BLOOM
 
   ```yaml
-  ﻿"Title: BLOOM: A 176B-Parameter Open-Access Multilingual Language Model
+  Title: BLOOM: A 176B-Parameter Open-Access Multilingual Language Model
   model family: GPT
   date created: 2022-07-01
   organization: Huggingface, Big Science
@@ -1762,7 +1762,7 @@
 - Galactica
 
   ```yaml
-  ﻿"Title: Galactica: A large language model for science
+  Title: Galactica: A large language model for science
   model family: transformer
   date created: 2022-11-01
   organization: Meta
@@ -1789,7 +1789,7 @@
 - InstructOR
 
   ```yaml
-  ﻿"Title: One Embedder, Any Task: Instruction-Finetuned Text Embeddings
+  Title: One Embedder, Any Task: Instruction-Finetuned Text Embeddings
   model family: T5
   date created: 2022-12-01
   organization: Meta AI, University of Washington, University of Hong Kong
@@ -1815,7 +1815,7 @@
 - LLaMA
 
   ```yaml
-  ﻿"Title: LLaMA: Open and Efficient Foundation Language Models
+  Title: LLaMA: Open and Efficient Foundation Language Models
   model family: LLaMa
   date created: 2023-02-27
   organization: Meta AI
@@ -1841,7 +1841,7 @@
 - Llama 2
 
   ```yaml
-  ﻿"Title: Llama 2: Open Foundation and Fine-Tuned Chat Models
+  Title: Llama 2: Open Foundation and Fine-Tuned Chat Models
   model family: LLaMa
   date created: 2023-07-18
   organization: Meta AI
@@ -1870,7 +1870,7 @@
 - Alpaca
 
   ```yaml
-  ﻿"Title: Alpaca: A strong, replicable instruction-following model
+  Title: Alpaca: A strong, replicable instruction-following model
   model family: LLaMa
   date created: 2023-03-01
   organization: Stanford University
@@ -1896,7 +1896,7 @@
 - Vicuna
 
   ```yaml
-  ﻿"Title: Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90%* ChatGPT Quality
+  Title: Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90%* ChatGPT Quality
   model family: LLaMa
   date created: 2023-03-30
   organization: Large Model Systems Organization
@@ -1922,7 +1922,7 @@
 - MPT-7B
 
   ```yaml
-  ﻿"Title: Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs
+  Title: Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs
   model family: MosaicPretrainedTransformer (MPT) models
   date created: 2023-05-05
   organization: MosaicML
@@ -1948,7 +1948,7 @@
 - MPT-30B
 
   ```yaml
-  ﻿"Title: Introducing MPT-30B: Raising the bar for open-source foundation models
+  Title: Introducing MPT-30B: Raising the bar for open-source foundation models
   model family: MosaicPretrainedTransformer (MPT) models
   date created: 2023-06-22
   organization: MosaicML
@@ -1976,7 +1976,7 @@
 - StarCoderBase, StarCoder
 
   ```yaml
-  ﻿"Title: StarCoder: may the source be with you!
+  Title: StarCoder: may the source be with you!
   model family: SantaCoder
   date created: 2023-05-09
   organization: BigCode Project
@@ -2003,7 +2003,7 @@
 - Falcon
 
   ```yaml
-  ﻿"Title: Falcon-40B: an open large language model with state-of-the-art performance
+  Title: Falcon-40B: an open large language model with state-of-the-art performance
   model family: transformer
   date created: 2023-05-25
   organization: Technology Innovation Institute
@@ -2030,7 +2030,7 @@
 - OpenLLaMA v1
 
   ```yaml
-  ﻿"Title: OpenLLaMA: An Open Reproduction of LLaMA
+  Title: OpenLLaMA: An Open Reproduction of LLaMA
   model family: LLaMa
   date created: 2023-06-16
   organization: Berkeley AI Research
@@ -2054,7 +2054,7 @@
 - OpenLLaMA v2
 
   ```yaml
-  ﻿"Title: OpenLLaMA: An Open Reproduction of LLaMA
+  Title: OpenLLaMA: An Open Reproduction of LLaMA
   model family: LLaMa
   date created: 2023-07-16
   organization: Berkeley AI Research
@@ -2079,7 +2079,7 @@
 - JAIS
 
   ```yaml
-  ﻿"Title: Jais and Jais-chat: Arabic-Centric Foundation and Instruction-Tuned Open Generative Large Language Models
+  Title: Jais and Jais-chat: Arabic-Centric Foundation and Instruction-Tuned Open Generative Large Language Models
   model family: GPT
   date created: 2023-08-30
   organization: Cerebras, Mohamed bin Zayed University of Artificial Intelligence, Inception
