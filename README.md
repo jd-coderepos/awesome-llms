@@ -49,7 +49,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 #### OpenAI
 
 - GPT-1
-	
+
   ```yaml
   Title: Improving Language Understanding by Generative Pre-Training
   model family: GPT
@@ -71,9 +71,10 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- GPT-2
+
   ```yaml
   Title: Language models are unsupervised multitask learners
-  has model: GPT-2
   model family: GPT
   date created: 2019-02-01
   organization: OpenAI
@@ -92,9 +93,10 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- GPT-3
+
   ```yaml
   Title: Language Models are Few-Shot Learners
-  has model: GPT-3
   model family: GPT
   date created: 2020-05-01
   organization: OpenAI
@@ -114,9 +116,10 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- DALL-E
+
   ```yaml
   Title: Zero-Shot Text-to-Image Generation
-  has model: DALL-E
   model family: GPT
   date created: 2021-01-01
   organization: OpenAI
@@ -135,123 +138,6 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   blog post: https://openai.com/blog/dall-e/, https://ml.berkeley.edu/blog/posts/dalle2/
   license: N/A
   research problem: Large Language Models (LLMs), transformer model
-  ```
-
-  ```yaml
-  Title: Learning Transferable Visual Models From Natural Language Supervision
-  has model: CLIP
-  model family: Also using Resnet, ViT, and vanilla transformer for text, CLIP
-  date created: 2021-02-01
-  organization: OpenAI
-  innovation: CLIP, in the context of Large Language Models, introduces a novel approach by leveraging natural language supervision with a dataset of 400 million (image, text) pairs. It excels in zero-shot learning, allowing it to classify images using textual descriptions without prior training on specific categories. This integration of vision and language offers a flexible, scalable solution with potential for diverse applications.
-  pretraining architecture: Encoder
-  pretraining task: predict which of the N × N possible (image, text) pairings across a batch actually occurred
-  training corpus: WIT (WebImageText) - 400 million text,image pairs
-  optimizer: Adam optimizer
-  hardware used: Nvidia V100 GPU
-  hardware information: The largest ResNet model, RN50x64, took 18 days to train on 592 V100 GPUs while the largest Vision Transformer took 12 days on 256 V100 GPUs.
-  extension: Combines Resnet and ViT for the visual encoding with Transformer for the Textual encoder
-  application: Image/Object classification
-  has source code: https://github.com/openai/CLIP, https://huggingface.co/docs/transformers/model_doc/clip
-  blog post: https://openai.com/research/clip, https://medium.com/axinc-ai/clip-learning-transferable-visual-models-from-natural-language-supervision-4508b3f0ea46
-  license: Open, MIT license
-  research problem: Large Language Models (LLMs), transformer model
-  ```
-
-  ```yaml
-  Title: GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models
-  has model: GLIDE
-  model family: Diffusion models
-  date created: 2021-12-01
-  organization: OpenAI
-  innovation: The paper introduces two guidance techniques for text-guided image synthesis: CLIP guidance and classifier-free guidance. Of the two, classifier-free guidance produces higher-quality, photorealistic images that align closely with textual descriptions, outperforming previous models like DALL-E in evaluations.
-  pretraining architecture: Encoder
-  pretraining task: Caption prediction
-  training corpus: Same as DALL-E
-  number of parameters: 3.5B diffusion model (2.3B for visual encoding, 1.2B for textual) + 1.5B for model for upsampling
-  maximum number of parameters (in million): 3500
-  extension: GLIDE can be seen as an extension of the ADM (Ablated Diffusion Model) by the same authors. However, ADM is not per se a transformer architecture although it does resemble one in some of the configurations the authors use. Given that ADM is by the same authors and was quickly followed up by GLIDE, I think it is fair to consider GLIDE as the first of its kind.
-  application: Text to image
-  has source code: https://github.com/openai/glide-text2im
-  license: Open, MIT license
-  research problem: Large Language Models (LLMs), transformer model
-  ```
-
-  ```yaml
-  Title: Training language models to follow instructions with human feedback
-  has model: InstructGPT
-  model family: GPT
-  date created: 2022-01-01
-  organization: OpenAI
-  innovation: Better alignment of LLMs with human expectations using reinforcement learning through human feedback
-  pretraining architecture: Decoder
-  pretraining task: Causal language modeling
-  fine-tuning task: Reinforcement Learning from Human Feedback
-  training corpus: Same as GPT3 for pretraining, but finetuned and optimized using labeler data and prompts
-  number of parameters: Same as GPT3
-  extension: GPTInstruct starts off with a pretrained GPT3 model and adds reward modeling through reinforcement learning after a supervised finetuning
-  application: Knowledge-intensive dialog or language tasks
-  has source code: https://github.com/openai/following-instructions-human-feedback
-  blog post: https://sh-tsang.medium.com/review-instructgpt-training-language-models-to-follow-instructions-with-human-feedback-7fce4bf9059a, https://openai.com/research/instruction-following
-  license: Closed source, accessible through API
-  research problem: Large Language Models (LLMs), transformer model
-  ```
-
-  ```yaml
-  Title: Hierarchical Text-Conditional Image Generation with CLIP Latents
-  has model: DALL-E 2
-  model family: GLIDE, CLIP
-  date created: 2022-04-01
-  organization: OpenAI
-  pretraining architecture: Encoder/Decoder
-  pretraining task: Caption prediction
-  training corpus: Combination of the DALL-E and CLIP datasets
-  number of parameters: 3.5B
-  maximum number of parameters (in million): 3500
-  extension: Combines CLIP encoder and Diffusion decoder similar to GLIDE
-  application: Text to image
-  blog post: https://openai.com/product/dall-e-2, https://labs.openai.com/
-  license: Closed source, accessible through API
-  research problem: Large Language Models (LLMs), transformer model
-  ```
-
-  ```yaml
-  Title: Introducing ChatGPT
-  has model: ChatGPT
-  model family: GPT
-  date created: 2022-11-30
-  organization: OpenAI
-  innovation: trained using Reinforcement Learning from Human Feedback (RLHF) to obtain better model alignment, It can generate upto 3000 words (equivalent to 6 pages), Supports input context length of 2048 tokens
-  pretraining architecture: Decoder
-  pretraining task: Causal language modeling
-  fine-tuning task: Step 3. RLHF using Proximal Policy Optimization, Step 2. Collect comparison data and train a reward model, Step 1. Supervized fine-tuning
-  training corpus: Human written prompt and interaction dataset collected through the OpenAI API
-  number of parameters: 175B
-  maximum number of parameters (in million): 175000
-  hardware information: trained on an Azure AI supercomputing infrastructure
-  application: provide human-like conversational interactions and assist users in answering questions, generating text, providing recommendations, and engaging in natural language conversations.
-  blog post: https://openai.com/blog/chatgpt
-  license: Closed source, accessible through API
-  research problem: transformer model, Large Language Models (LLMs)
-  ```
-
-  ```yaml
-  Title: GPT-4 Technical Report
-  has model: GPT-4
-  model family: GPT
-  date created: 2023-03-14
-  organization: OpenAI
-  innovation: It can generate upto 24000 words (equivalent to 48 pages), Supports input context length between 8192 and 32,768 tokens depending on the model version
-  pretraining architecture: Decoder
-  pretraining task: Causal language modeling
-  fine-tuning task: Reinforcement Learning from Human Feedback, Rule-Based Reward Model
-  number of parameters: 170T
-  maximum number of parameters (in million): 170000000
-  extension: a large-scale, multimodal model which can accept image and text inputs and produce text outputs
-  application: Creating highly realistic and contextually accurate human-like text generation
-  blog post: https://openai.com/research/gpt-4
-  license: Closed source, accessible through API
-  research problem: transformer model, Large Language Models (LLMs)
   ```
 
 #### Google

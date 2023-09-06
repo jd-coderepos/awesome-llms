@@ -1,8 +1,9 @@
 #### OpenAI
 
+- GPT-1
+
   ```yaml
   ﻿"Title: Improving Language Understanding by Generative Pre-Training
-  has model: GPT-1
   model family: GPT
   date created: 2018-06-01
   organization: OpenAI
@@ -22,9 +23,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- GPT-2
+
   ```yaml
   ﻿"Title: Language models are unsupervised multitask learners
-  has model: GPT-2
   model family: GPT
   date created: 2019-02-01
   organization: OpenAI
@@ -43,9 +45,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- GPT-3
+
   ```yaml
   ﻿"Title: Language Models are Few-Shot Learners
-  has model: GPT-3
   model family: GPT
   date created: 2020-05-01
   organization: OpenAI
@@ -65,9 +68,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- DALL-E
+
   ```yaml
   ﻿"Title: Zero-Shot Text-to-Image Generation
-  has model: DALL-E
   model family: GPT
   date created: 2021-01-01
   organization: OpenAI
@@ -88,9 +92,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- CLIP
+
   ```yaml
   ﻿"Title: Learning Transferable Visual Models From Natural Language Supervision
-  has model: CLIP
   model family: Also using Resnet, ViT, and vanilla transformer for text, CLIP
   date created: 2021-02-01
   organization: OpenAI
@@ -109,9 +114,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- GLIDE
+
   ```yaml
   ﻿"Title: GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models
-  has model: GLIDE
   model family: Diffusion models
   date created: 2021-12-01
   organization: OpenAI
@@ -128,9 +134,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- InstructGPT
+
   ```yaml
   ﻿"Title: Training language models to follow instructions with human feedback
-  has model: InstructGPT
   model family: GPT
   date created: 2022-01-01
   organization: OpenAI
@@ -148,9 +155,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- DALL-E 2
+
   ```yaml
   ﻿"Title: Hierarchical Text-Conditional Image Generation with CLIP Latents
-  has model: DALL-E 2
   model family: GLIDE, CLIP
   date created: 2022-04-01
   organization: OpenAI
@@ -166,9 +174,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- ChatGPT
+
   ```yaml
   ﻿"Title: Introducing ChatGPT
-  has model: ChatGPT
   model family: GPT
   date created: 2022-11-30
   organization: OpenAI
@@ -186,9 +195,10 @@
   research problem: transformer model, Large Language Models (LLMs)
   ```
 
+- GPT-4
+
   ```yaml
   ﻿"Title: GPT-4 Technical Report
-  has model: GPT-4
   model family: GPT
   date created: 2023-03-14
   organization: OpenAI
@@ -208,9 +218,10 @@
 ----------------------------------------
 #### Google
 
+- BERT
+
   ```yaml
   ﻿"Title: BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
-  has model: BERT
   model family: BERT
   date created: 2018-10-01
   organization: Google
@@ -230,9 +241,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- ALBERT
+
   ```yaml
   ﻿"Title: ALBERT: A Lite BERT for Self-supervised Learning of Language Representations
-  has model: ALBERT
   model family: BERT
   date created: 2019-09-01
   organization: Google
@@ -253,9 +265,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- T5
+
   ```yaml
   ﻿"Title: Exploring the limits of transfer learning with a unified text-to-text transformer
-  has model: T5
   model family: T5
   date created: 2019-10-01
   organization: Google
@@ -278,9 +291,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- Big Bird
+
   ```yaml
   ﻿"Title: Big Bird: Transformers for Longer Sequences
-  has model: Big Bird
   model family: BERT
   date created: 2020-07-01
   organization: Google
@@ -298,9 +312,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- ViT
+
   ```yaml
   ﻿"Title: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
-  has model: ViT
   model family: BERT
   date created: 2020-10-01
   organization: Google
@@ -321,9 +336,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- Switch
+
   ```yaml
   ﻿"Title: Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity
-  has model: Switch
   model family: T5
   date created: 2021-01-01
   organization: Google
@@ -343,9 +359,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- GLaM
+
   ```yaml
   ﻿"Title: GLaM: Efficient Scaling of Language Models with Mixture-of-Experts
-  has model: GLaM
   model family: Transformer
   date created: 2021-12-01
   organization: Google
@@ -366,9 +383,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- LAMDA
+
   ```yaml
   ﻿"Title: LaMDA: Language Models for Dialog Applications
-  has model: LAMDA
   model family: LaMDA-PT
   date created: 2022-01-01
   organization: Google
@@ -390,9 +408,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- FLAN
+
   ```yaml
   ﻿"Title: Finetuned language models are zero-shot learners
-  has model: FLAN
   model family: LaMDA-PT
   date created: 2022-02-08
   organization: Google
@@ -414,9 +433,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- PaLM
+
   ```yaml
   ﻿"Title: PaLM: Scaling Language Modeling with Pathways
-  has model: PaLM
   model family: PaLM
   date created: 2022-04-01
   organization: Google
@@ -438,9 +458,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- UL2
+
   ```yaml
   ﻿"Title: Ul2: Unifying language learning paradigms
-  has model: UL2
   model family: Transformer
   date created: 2022-05-01
   organization: Google
@@ -462,9 +483,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- Imagen
+
   ```yaml
   ﻿"Title: Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding
-  has model: Imagen
   model family: Diffusion models, CLIP, T5
   date created: 2022-06-01
   organization: Google
@@ -484,9 +506,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- Minerva
+
   ```yaml
   ﻿"Title: Solving Quantitative Reasoning Problems with Language Models
-  has model: Minerva
   model family: PaLM
   date created: 2022-06-01
   organization: Google
@@ -502,9 +525,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- Flan-T5
+
   ```yaml
   ﻿"Title: Scaling instruction-finetuned language models
-  has model: Flan-T5
   model family: T5
   date created: 2022-11-01
   organization: Google
@@ -525,9 +549,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- Flan-PaLM
+
   ```yaml
   ﻿"Title: Scaling instruction-finetuned language models
-  has model: Flan-PaLM
   model family: PaLM
   date created: 2022-11-01
   organization: Google
@@ -550,9 +575,10 @@
 ----------------------------------------
 #### Google, CMU
 
+- Transformer XL
+
   ```yaml
   ﻿"Title: Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context
-  has model: Transformer XL
   date created: 2019-01-01
   organization: Google, CMU
   innovation: Transformer-XL introduces a segment-level recurrence mechanism and a novel positional encoding scheme to overcome the fixed-length context limitations of traditional Transformers. This allows it to capture dependencies 80% longer than RNNs and 450% longer than vanilla Transformers, addressing context fragmentation and improving efficiency in language modeling.
@@ -571,9 +597,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- XLNet
+
   ```yaml
   ﻿"Title: XLNet: Generalized Autoregressive Pretraining for Language Understanding
-  has model: XLNet
   model family: Transformer XL
   date created: 2019-05-01
   organization: Google, CMU
@@ -597,9 +624,10 @@
 ----------------------------------------
 #### Pengcheng Lab, Baidu
 
+- ERNIE
+
   ```yaml
   ﻿"Title: ERNIE: Enhanced Language Representation with Informative Entities
-  has model: ERNIE
   model family: BERT
   date created: 2019-05-01
   organization: Pengcheng Lab, Baidu
@@ -621,9 +649,10 @@
 ----------------------------------------
 #### Google, University of Washington
 
+- RoBERTa
+
   ```yaml
   ﻿"Title: RoBERTa: A Robustly Optimized BERT Pretraining Approach
-  has model: RoBERTa
   model family: BERT
   date created: 2019-07-01
   organization: Google, University of Washington
@@ -645,9 +674,10 @@
 ----------------------------------------
 #### Salesforce
 
+- CTRL
+
   ```yaml
   ﻿"Title: CTRL: A Conditional Transformer Language Model for Controllable Generation
-  has model: CTRL
   date created: 2019-09-01
   organization: Salesforce
   innovation: The main innovation of the work in the context of LLMs appears to involve advancements in model architecture, training techniques, and multitask learning to enhance the performance, efficiency, and ethical considerations of language models.
@@ -670,9 +700,10 @@
 ----------------------------------------
 #### Deepmind
 
+- AlphaFold
+
   ```yaml
   ﻿"Title: Highly accurate protein structure prediction with AlphaFold
-  has model: AlphaFold
   model family: SE(3)-Transformer
   date created: 2019-09-01
   organization: Deepmind
@@ -690,9 +721,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- Gopher
+
   ```yaml
   ﻿"Title: Scaling Language Models: Methods, Analysis &amp; Insights from Training Gopher
-  has model: Gopher
   model family: GPT
   date created: 2021-12-01
   organization: Deepmind
@@ -713,9 +745,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- Chinchilla
+
   ```yaml
   ﻿"Title: Training Compute-Optimal Large Language Models
-  has model: Chinchilla
   model family: GPT
   date created: 2022-03-01
   organization: Deepmind
@@ -736,9 +769,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- GopherCite
+
   ```yaml
   ﻿"Title: Teaching language models to support answers with verified quotes
-  has model: GopherCite
   model family: Gopher
   date created: 2022-03-01
   organization: Deepmind
@@ -759,9 +793,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- Flamingo
+
   ```yaml
   ﻿"Title: Flamingo: a Visual Language Model for Few-Shot Learning
-  has model: Flamingo
   model family: Chinchilla
   date created: 2022-04-01
   organization: Deepmind
@@ -782,9 +817,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- Gato
+
   ```yaml
   ﻿"Title: A Generalist Agent
-  has model: Gato
   model family: “Control Transformers” (not per se a family, but grouping here those transformers that try to model more general control, RL-like, tasks)
   date created: 2022-05-01
   organization: Deepmind
@@ -804,9 +840,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- Sparrow
+
   ```yaml
   ﻿"Title: Improving alignment of dialogue agents via targeted human judgements
-  has model: Sparrow
   model family: GPT
   date created: 2022-09-01
   organization: Deepmind
@@ -830,9 +867,10 @@
 ----------------------------------------
 #### Facebook
 
+- BART
+
   ```yaml
   ﻿"Title: BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension
-  has model: BART
   model family: BERT for encoder, GPT for Decoder
   date created: 2019-10-01
   organization: Facebook
@@ -849,9 +887,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- XLM-RoBERTa
+
   ```yaml
   ﻿"Title: Unsupervised Cross-lingual Representation Learning at Scale
-  has model: XLM-RoBERTa
   model family: RoBERTa
   date created: 2019-10-01
   organization: Facebook
@@ -871,9 +910,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- mBART
+
   ```yaml
   ﻿"Title: Multilingual Denoising Pre-training for Neural Machine Translation
-  has model: mBART
   model family: BART
   date created: 2020-01-01
   organization: Facebook
@@ -894,9 +934,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- HTLM
+
   ```yaml
   ﻿"Title: HTLM: Hyper-Text Pre-Training and Prompting of Language Models
-  has model: HTLM
   model family: BART
   date created: 2021-07-01
   organization: Facebook
@@ -914,9 +955,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- CM3
+
   ```yaml
   ﻿"Title: CM3: A Causal Masked Multimodal Model of the Internet
-  has model: CM3
   model family: HTLM
   date created: 2022-01-01
   organization: Facebook
@@ -936,9 +978,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- SeeKer
+
   ```yaml
   ﻿"Title: Language Models that Seek for Knowledge: Modular Search & Generation for Dialogue and Prompt Completion
-  has model: SeeKer
   model family: GPT (but can extend any family)
   date created: 2022-03-01
   organization: Facebook
@@ -958,9 +1001,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- OPT
+
   ```yaml
   ﻿"Title: OPT: Open Pre-trained Transformer Language Models
-  has model: OPT
   model family: GPT
   date created: 2022-05-01
   organization: Facebook
@@ -982,9 +1026,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- BlenderBot 3
+
   ```yaml
   ﻿"Title: BlenderBot 3: a deployed conversational agent that continually learns to responsibly engage
-  has model: BlenderBot 3
   model family: GPT
   date created: 2022-08-01
   organization: Facebook
@@ -1008,9 +1053,10 @@
 ----------------------------------------
 #### Microsoft
 
+- DialoGPT
+
   ```yaml
   ﻿"Title: DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation
-  has model: DialoGPT
   model family: GPT
   date created: 2019-10-01
   organization: Microsoft
@@ -1030,9 +1076,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- DeBERTa
+
   ```yaml
   ﻿"Title: Deberta: Decoding-enhanced bert with disentangled attention
-  has model: DeBERTa
   model family: BERT
   date created: 2020-06-01
   organization: Microsoft
@@ -1054,9 +1101,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- Swin Transformer
+
   ```yaml
   ﻿"Title: Swin Transformer: Hierarchical Vision Transformer Using Shifted Windows
-  has model: Swin Transformer
   model family: ViT
   date created: 2021-03-01
   organization: Microsoft
@@ -1076,9 +1124,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- Godel
+
   ```yaml
   ﻿"Title: Godel: Large-scale pre-training for goal-directed dialog
-  has model: Godel
   model family: T5, GPT
   date created: 2022-06-01
   organization: Microsoft
@@ -1099,9 +1148,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- E5
+
   ```yaml
   ﻿"Title: Text Embeddings by Weakly-Supervised Contrastive Pre-training
-  has model: E5
   model family: BERT
   date created: 2022-12-01
   organization: Microsoft
@@ -1123,9 +1173,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- WizardLM
+
   ```yaml
   ﻿"Title: WizardLM: Empowering Large Language Models to Follow Complex Instructions
-  has model: WizardLM
   model family: LLaMa
   date created: 2023-04-24
   organization: Microsoft
@@ -1146,9 +1197,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- WizardMath
+
   ```yaml
   ﻿"Title: WizardMath: Empowering Mathematical Reasoning for Large Language Models via Reinforced Evol-Instruct
-  has model: WizardMath
   model family: LLaMa
   date created: 2023-04-24
   organization: Microsoft
@@ -1166,9 +1218,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- Orca
+
   ```yaml
   ﻿"Title: Orca: Progressive learning from complex explanation traces of gpt-4
-  has model: Orca
   model family: LLaMa
   date created: 2023-06-05
   organization: Microsoft
@@ -1188,9 +1241,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- WizardCoder
+
   ```yaml
   ﻿"Title: WizardCoder: Empowering Code Large Language Models with Evol-Instruct
-  has model: WizardCoder
   model family: StarCoder
   date created: 2023-06-14
   organization: Microsoft
@@ -1210,9 +1264,10 @@
 ----------------------------------------
 #### Huggingface
 
+- DistilBERT
+
   ```yaml
   ﻿"Title: DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter
-  has model: DistilBERT
   model family: BERT
   date created: 2019-10-01
   organization: Huggingface
@@ -1235,9 +1290,10 @@
 ----------------------------------------
 #### Google, Imperial College London
 
+- Pegasus
+
   ```yaml
   ﻿"Title: PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization
-  has model: Pegasus
   model family: Transformer
   date created: 2019-12-01
   organization: Google, Imperial College London
@@ -1260,9 +1316,10 @@
 ----------------------------------------
 #### Google, Stanford
 
+- ELECTRA
+
   ```yaml
   ﻿"Title: ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators
-  has model: ELECTRA
   model family: BERT
   date created: 2020-03-01
   organization: Google, Stanford
@@ -1285,9 +1342,10 @@
 ----------------------------------------
 #### NVidia
 
+- Megatron
+
   ```yaml
   ﻿"Title: Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism
-  has model: Megatron
   model family: T5, BERT, GPT
   date created: 2020-03-01
   organization: NVidia
@@ -1307,9 +1365,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- Megatron-Turing NLG
+
   ```yaml
   ﻿"Title: Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model
-  has model: Megatron-Turing NLG
   model family: GPT
   date created: 2021-10-01
   organization: NVidia
@@ -1328,9 +1387,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- Global Context ViT
+
   ```yaml
   ﻿"Title: Global Context Vision Transformers
-  has model: Global Context ViT
   model family: ViT
   date created: 2022-06-01
   organization: NVidia
@@ -1354,9 +1414,10 @@
 ----------------------------------------
 #### EleutherAI
 
+- GPT-Neo
+
   ```yaml
   ﻿"Title: GPT-Neo: Large Scale Autoregressive Language Modeling with Mesh-Tensorflow
-  has model: GPT-Neo
   model family: GPT
   date created: 2021-03-01
   organization: EleutherAI
@@ -1374,9 +1435,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- GPT-J
+
   ```yaml
   ﻿"Title: GPT-J-6B: A 6 billion parameter autoregressive language model
-  has model: GPT-J
   model family: GPT
   date created: 2021-05-01
   organization: EleutherAI
@@ -1396,9 +1458,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- GPT-NeoX-20B
+
   ```yaml
   ﻿"Title: GPT-NeoX-20B: An Open-Source Autoregressive Language Model
-  has model: GPT-NeoX-20B
   model family: GPT
   date created: 2022-04-01
   organization: EleutherAI
@@ -1420,9 +1483,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- Pythia
+
   ```yaml
   ﻿"Title: Pythia: A suite for analyzing large language models across training and scaling
-  has model: Pythia
   model family: Pythia
   date created: 2023-03-13
   organization: EleutherAI
@@ -1447,9 +1511,10 @@
 ----------------------------------------
 #### Facebook, Google, UC Berkeley
 
+- Decision Transformers
+
   ```yaml
   ﻿"Title: Decision Transformer: Reinforcement Learning via Sequence Modeling
-  has model: Decision Transformers
   model family: GPT, Control Transformers” (not per se a family, but grouping here those transformers that try to model more general control, RL-like, tasks)
   date created: 2021-06-01
   organization: Facebook, Google, UC Berkeley
@@ -1470,9 +1535,10 @@
 ----------------------------------------
 #### UC Berkeley
 
+- Trajectory Transformers
+
   ```yaml
   ﻿"Title: Offline Reinforcement Learning as One Big Sequence Modeling Problem
-  has model: Trajectory Transformers
   model family: GPT, Control Transformers” (not per se a family, but grouping here those transformers that try to model more general control, RL-like, tasks)
   date created: 2021-06-01
   organization: UC Berkeley
@@ -1493,9 +1559,10 @@
 ----------------------------------------
 #### AI21
 
+- Jurassic-1
+
   ```yaml
   ﻿"Title: Jurassic-1: Technical details and evaluation
-  has model: Jurassic-1
   model family: GPT
   date created: 2021-09-01
   organization: AI21
@@ -1518,9 +1585,10 @@
 ----------------------------------------
 #### Anthropic
 
+- Anthropic Assistant
+
   ```yaml
   ﻿"Title: A General Language Assistant as a Laboratory for Alignment
-  has model: Anthropic Assistant
   model family: Transformer
   date created: 2021-12-01
   organization: Anthropic
@@ -1539,9 +1607,10 @@
 ----------------------------------------
 #### EleutherAI, Stability.ai, LMU Munich
 
+- StableDiffusion
+
   ```yaml
   ﻿"Title: High-Resolution Image Synthesis with Latent Diffusion Models
-  has model: StableDiffusion
   model family: Diffusion
   date created: 2021-12-01
   organization: EleutherAI, Stability.ai, LMU Munich
@@ -1561,9 +1630,10 @@
 ----------------------------------------
 #### Amazon
 
+- DQ-BART
+
   ```yaml
   ﻿"Title: DQ-BART: Efficient Sequence-to-Sequence Model via Joint Distillation and Quantization
-  has model: DQ-BART
   model family: BART
   date created: 2022-03-01
   organization: Amazon
@@ -1581,9 +1651,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- AlexaTM 20B
+
   ```yaml
   ﻿"Title: Alexatm 20b: Few-shot learning using a large-scale multilingual seq2seq model
-  has model: AlexaTM 20B
   model family: transformer
   date created: 2022-08-01
   organization: Amazon
@@ -1607,9 +1678,10 @@
 ----------------------------------------
 #### Tsinghua University
 
+- GLM
+
   ```yaml
   ﻿"Title: GLM: General language model pretraining with autoregressive blank infilling
-  has model: GLM
   model family: GLM (General Language Model)
   date created: 2022-03-01
   organization: Tsinghua University
@@ -1634,9 +1706,10 @@
 ----------------------------------------
 #### BigScience
 
+- T0
+
   ```yaml
   ﻿"Title: Multitask prompted training enables zero-shot task generalization
-  has model: T0
   model family: T5
   date created: 2022-03-01
   organization: BigScience
@@ -1659,9 +1732,10 @@
 ----------------------------------------
 #### Huggingface, Big Science
 
+- BLOOM
+
   ```yaml
   ﻿"Title: BLOOM: A 176B-Parameter Open-Access Multilingual Language Model
-  has model: BLOOM
   model family: GPT
   date created: 2022-07-01
   organization: Huggingface, Big Science
@@ -1685,9 +1759,10 @@
 ----------------------------------------
 #### Meta
 
+- Galactica
+
   ```yaml
   ﻿"Title: Galactica: A large language model for science
-  has model: Galactica
   model family: transformer
   date created: 2022-11-01
   organization: Meta
@@ -1711,9 +1786,10 @@
 ----------------------------------------
 #### Meta AI, University of Washington, University of Hong Kong
 
+- InstructOR
+
   ```yaml
   ﻿"Title: One Embedder, Any Task: Instruction-Finetuned Text Embeddings
-  has model: InstructOR
   model family: T5
   date created: 2022-12-01
   organization: Meta AI, University of Washington, University of Hong Kong
@@ -1736,9 +1812,10 @@
 ----------------------------------------
 #### Meta AI
 
+- LLaMA
+
   ```yaml
   ﻿"Title: LLaMA: Open and Efficient Foundation Language Models
-  has model: LLaMA
   model family: LLaMa
   date created: 2023-02-27
   organization: Meta AI
@@ -1761,9 +1838,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- Llama 2
+
   ```yaml
   ﻿"Title: Llama 2: Open Foundation and Fine-Tuned Chat Models
-  has model: Llama 2
   model family: LLaMa
   date created: 2023-07-18
   organization: Meta AI
@@ -1789,9 +1867,10 @@
 ----------------------------------------
 #### Stanford University
 
+- Alpaca
+
   ```yaml
   ﻿"Title: Alpaca: A strong, replicable instruction-following model
-  has model: Alpaca
   model family: LLaMa
   date created: 2023-03-01
   organization: Stanford University
@@ -1814,9 +1893,10 @@
 ----------------------------------------
 #### Large Model Systems Organization
 
+- Vicuna
+
   ```yaml
   ﻿"Title: Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90%* ChatGPT Quality
-  has model: Vicuna
   model family: LLaMa
   date created: 2023-03-30
   organization: Large Model Systems Organization
@@ -1839,9 +1919,10 @@
 ----------------------------------------
 #### MosaicML
 
+- MPT-7B
+
   ```yaml
   ﻿"Title: Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs
-  has model: MPT-7B
   model family: MosaicPretrainedTransformer (MPT) models
   date created: 2023-05-05
   organization: MosaicML
@@ -1864,9 +1945,10 @@
   research problem: Large Language Models (LLMs), transformer model
   ```
 
+- MPT-30B
+
   ```yaml
   ﻿"Title: Introducing MPT-30B: Raising the bar for open-source foundation models
-  has model: MPT-30B
   model family: MosaicPretrainedTransformer (MPT) models
   date created: 2023-06-22
   organization: MosaicML
@@ -1891,9 +1973,10 @@
 ----------------------------------------
 #### BigCode Project
 
+- StarCoderBase, StarCoder
+
   ```yaml
   ﻿"Title: StarCoder: may the source be with you!
-  has model: StarCoderBase, StarCoder
   model family: SantaCoder
   date created: 2023-05-09
   organization: BigCode Project
@@ -1917,9 +2000,10 @@
 ----------------------------------------
 #### Technology Innovation Institute
 
+- Falcon
+
   ```yaml
   ﻿"Title: Falcon-40B: an open large language model with state-of-the-art performance
-  has model: Falcon
   model family: transformer
   date created: 2023-05-25
   organization: Technology Innovation Institute
@@ -1943,9 +2027,10 @@
 ----------------------------------------
 #### Berkeley AI Research
 
+- OpenLLaMA v1
+
   ```yaml
   ﻿"Title: OpenLLaMA: An Open Reproduction of LLaMA
-  has model: OpenLLaMA v1
   model family: LLaMa
   date created: 2023-06-16
   organization: Berkeley AI Research
@@ -1966,9 +2051,10 @@
   research problem: transformer model, Large Language Models (LLMs)
   ```
 
+- OpenLLaMA v2
+
   ```yaml
   ﻿"Title: OpenLLaMA: An Open Reproduction of LLaMA
-  has model: OpenLLaMA v2
   model family: LLaMa
   date created: 2023-07-16
   organization: Berkeley AI Research
@@ -1990,9 +2076,10 @@
 ----------------------------------------
 #### Cerebras, Mohamed bin Zayed University of Artificial Intelligence, Inception
 
+- JAIS
+
   ```yaml
   ﻿"Title: Jais and Jais-chat: Arabic-Centric Foundation and Instruction-Tuned Open Generative Large Language Models
-  has model: JAIS
   model family: GPT
   date created: 2023-08-30
   organization: Cerebras, Mohamed bin Zayed University of Artificial Intelligence, Inception

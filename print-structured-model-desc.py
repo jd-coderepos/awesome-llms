@@ -20,7 +20,7 @@ def process_csv_file(file_path):
             
             organization = cells[4]
             # Ensure we only loop up to the minimum of the length of header_cells and cells
-            description = "\n".join([f"  {header_cells[i]}: {cells[i]}" for i in range(min(len(header_cells), len(cells))) if header_cells[i] and cells[i]])
+            description = [f"  {header_cells[i]}: {cells[i]}" for i in range(min(len(header_cells), len(cells))) if header_cells[i] and cells[i]]
             
             descriptions[organization].append(description)
 
@@ -35,5 +35,8 @@ with open('output.md', 'w', encoding='utf-8') as f:
     for org, desc_list in descriptions_dict.items():
         f.write(f"#### {org}\n\n")
         for desc in desc_list:
-            f.write(f"  ```yaml\n{desc}\n  ```\n\n")
+            model_name = desc[1].split(":")[1].strip()  # Extract the second property value
+            f.write(f"- {model_name}\n\n")
+            yaml_content = '\n'.join(desc[:1] + desc[2:])
+            f.write("  ```yaml\n" + yaml_content + "\n  ```\n\n")  # Exclude the second property from the YAML
         f.write('-'*40 + '\n')
