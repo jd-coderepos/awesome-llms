@@ -48,7 +48,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 
 #### OpenAI
 
-	- GPT-1
+- GPT-1
 	
   ```yaml
   Title: Improving Language Understanding by Generative Pre-Training
