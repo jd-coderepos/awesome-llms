@@ -71,7 +71,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- GPT-2
+- [GPT-2](https://orkg.org/paper/R370861/R370862)
 
   ```yaml
   Title: Language models are unsupervised multitask learners
@@ -93,7 +93,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- GPT-3
+- [GPT-3](https://orkg.org/paper/R370897/R370898)
 
   ```yaml
   Title: Language Models are Few-Shot Learners
@@ -116,7 +116,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- DALL-E
+- [DALL-E](https://orkg.org/paper/R370903/R370904)
 
   ```yaml
   Title: Zero-Shot Text-to-Image Generation
@@ -140,7 +140,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- CLIP
+- [CLIP](https://orkg.org/paper/R370907/R370908)
 
   ```yaml
   Title: Learning Transferable Visual Models From Natural Language Supervision
@@ -162,7 +162,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- GLIDE
+- [GLIDE](https://orkg.org/paper/R370931/R370932)
 
   ```yaml
   Title: GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models
@@ -182,7 +182,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- InstructGPT
+- [InstructGPT](https://orkg.org/paper/R370985/R370986)
 
   ```yaml
   Title: Training language models to follow instructions with human feedback
@@ -203,7 +203,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- DALL-E 2
+- [DALL-E 2](https://orkg.org/paper/R370957/R370958)
 
   ```yaml
   Title: Hierarchical Text-Conditional Image Generation with CLIP Latents
@@ -222,7 +222,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- ChatGPT
+- [ChatGPT](https://orkg.org/paper/R606142)
 
   ```yaml
   Title: Introducing ChatGPT
@@ -243,7 +243,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: transformer model, Large Language Models (LLMs)
   ```
 
-- GPT-4
+- [GPT-4](https://orkg.org/paper/R603883)
 
   ```yaml
   Title: GPT-4 Technical Report
@@ -266,7 +266,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 ----------------------------------------
 #### Google
 
-- BERT
+- [BERT](https://orkg.org/paper/R370558)
 
   ```yaml
   Title: BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
@@ -289,7 +289,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- ALBERT
+- [ALBERT](https://orkg.org/paper/R370867/R370868)
 
   ```yaml
   Title: ALBERT: A Lite BERT for Self-supervised Learning of Language Representations
@@ -313,7 +313,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- T5
+- [T5](https://orkg.org/paper/R370878)
 
   ```yaml
   Title: Exploring the limits of transfer learning with a unified text-to-text transformer
@@ -339,7 +339,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- Big Bird
+- [Big Bird](https://orkg.org/paper/R370899/R370900)
 
   ```yaml
   Title: Big Bird: Transformers for Longer Sequences
@@ -360,7 +360,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- ViT
+- [ViT](https://orkg.org/paper/R370901/R370902)
 
   ```yaml
   Title: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
@@ -384,7 +384,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- Switch
+- [Switch](https://orkg.org/paper/R216396/R370905)
 
   ```yaml
   Title: Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity
@@ -407,7 +407,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- GLaM
+- [GLaM](https://orkg.org/paper/R370929/R370930)
 
   ```yaml
   Title: GLaM: Efficient Scaling of Language Models with Mixture-of-Experts
@@ -431,7 +431,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- LAMDA
+- [LAMDA](https://orkg.org/paper/R370942)
 
   ```yaml
   Title: LaMDA: Language Models for Dialog Applications
@@ -456,7 +456,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- FLAN
+- [FLAN](https://orkg.org/paper/R376011)
 
   ```yaml
   Title: Finetuned language models are zero-shot learners
@@ -481,7 +481,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- PaLM
+- [PaLM](https://orkg.org/paper/R370963/R370964)
 
   ```yaml
   Title: PaLM: Scaling Language Modeling with Pathways
@@ -506,7 +506,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- UL2
+- [UL2](https://orkg.org/paper/R595146)
 
   ```yaml
   Title: Ul2: Unifying language learning paradigms
@@ -531,7 +531,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- Imagen
+- [Imagen](https://orkg.org/paper/R370975/R370976)
 
   ```yaml
   Title: Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding
@@ -554,7 +554,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- Minerva
+- [Minerva](https://orkg.org/paper/R370978)
 
   ```yaml
   Title: Solving Quantitative Reasoning Problems with Language Models
@@ -573,7 +573,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- Flan-T5
+- [Flan-T5](https://orkg.org/paper/R375926/R375931)
 
   ```yaml
   Title: Scaling instruction-finetuned language models
@@ -597,7 +597,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- Flan-PaLM
+- [Flan-PaLM](https://orkg.org/paper/R375926/R595030)
 
   ```yaml
   Title: Scaling instruction-finetuned language models
@@ -623,7 +623,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 ----------------------------------------
 #### Google, and CMU
 
-- Transformer XL
+- [Transformer XL](https://orkg.org/paper/R370542/R370546)
 
   ```yaml
   Title: Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context
@@ -645,7 +645,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- XLNet
+- [XLNet](https://orkg.org/paper/R130126/R370865)
 
   ```yaml
   Title: XLNet: Generalized Autoregressive Pretraining for Language Understanding
@@ -672,7 +672,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 ----------------------------------------
 #### Pengcheng Lab, and Baidu
 
-- ERNIE
+- [ERNIE](https://orkg.org/paper/R575541/R595026)
 
   ```yaml
   Title: ERNIE: Enhanced Language Representation with Informative Entities
@@ -697,7 +697,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 ----------------------------------------
 #### Google, and University of Washington
 
-- RoBERTa
+- [RoBERTa](https://orkg.org/paper/R197288/R370866)
 
   ```yaml
   Title: RoBERTa: A Robustly Optimized BERT Pretraining Approach
@@ -722,7 +722,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 ----------------------------------------
 #### Salesforce
 
-- CTRL
+- [CTRL](https://orkg.org/paper/R370869)
 
   ```yaml
   Title: CTRL: A Conditional Transformer Language Model for Controllable Generation
@@ -748,7 +748,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 ----------------------------------------
 #### Deepmind
 
-- AlphaFold
+- [AlphaFold](https://orkg.org/paper/R370919)
 
   ```yaml
   Title: Highly accurate protein structure prediction with AlphaFold
@@ -769,7 +769,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- Gopher
+- [Gopher](https://orkg.org/paper/R370933)
 
   ```yaml
   Title: Scaling Language Models: Methods, Analysis &amp; Insights from Training Gopher
@@ -793,7 +793,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- Chinchilla
+- [Chinchilla](https://orkg.org/paper/R370944/R370945)
 
   ```yaml
   Title: Training Compute-Optimal Large Language Models
@@ -817,7 +817,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- GopherCite
+- [GopherCite](https://orkg.org/paper/R370951)
 
   ```yaml
   Title: Teaching language models to support answers with verified quotes
@@ -841,7 +841,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- Flamingo
+- [Flamingo](https://orkg.org/paper/R370960/R370961)
 
   ```yaml
   Title: Flamingo: a Visual Language Model for Few-Shot Learning
@@ -865,7 +865,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- Gato
+- [Gato](https://orkg.org/paper/R370965/R370967)
 
   ```yaml
   Title: A Generalist Agent
@@ -888,7 +888,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- Sparrow
+- [Sparrow](https://orkg.org/paper/R370983)
 
   ```yaml
   Title: Improving alignment of dialogue agents via targeted human judgements
@@ -915,7 +915,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 ----------------------------------------
 #### Facebook
 
-- BART
+- [BART](https://orkg.org/paper/R370871/R370873)
 
   ```yaml
   Title: BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension
@@ -935,7 +935,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- XLM-RoBERTa
+- [XLM-RoBERTa](https://orkg.org/paper/R370881)
 
   ```yaml
   Title: Unsupervised Cross-lingual Representation Learning at Scale
@@ -958,7 +958,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- mBART
+- [mBART](https://orkg.org/paper/R370887)
 
   ```yaml
   Title: Multilingual Denoising Pre-training for Neural Machine Translation
@@ -982,7 +982,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- HTLM
+- [HTLM](https://orkg.org/paper/R370922/R370923)
 
   ```yaml
   Title: HTLM: Hyper-Text Pre-Training and Prompting of Language Models
@@ -1003,7 +1003,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- CM3
+- [CM3](https://orkg.org/paper/R370939)
 
   ```yaml
   Title: CM3: A Causal Masked Multimodal Model of the Internet
@@ -1026,7 +1026,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- SeeKer
+- [SeeKer](https://orkg.org/paper/R370953)
 
   ```yaml
   Title: Language Models that Seek for Knowledge: Modular Search & Generation for Dialogue and Prompt Completion
@@ -1049,7 +1049,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- OPT
+- [OPT](https://orkg.org/paper/R370968/R370969)
 
   ```yaml
   Title: OPT: Open Pre-trained Transformer Language Models
@@ -1074,7 +1074,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- BlenderBot 3
+- [BlenderBot 3](https://orkg.org/paper/R370981)
 
   ```yaml
   Title: BlenderBot 3: a deployed conversational agent that continually learns to responsibly engage
@@ -1101,7 +1101,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 ----------------------------------------
 #### Microsoft
 
-- DialoGPT
+- [DialoGPT](https://orkg.org/paper/R370874)
 
   ```yaml
   Title: DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation
@@ -1124,7 +1124,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- DeBERTa
+- [DeBERTa](https://orkg.org/paper/R595016)
 
   ```yaml
   Title: Deberta: Decoding-enhanced bert with disentangled attention
@@ -1149,7 +1149,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- Swin Transformer
+- [Swin Transformer](https://orkg.org/paper/R370912)
 
   ```yaml
   Title: Swin Transformer: Hierarchical Vision Transformer Using Shifted Windows
@@ -1172,7 +1172,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- Godel
+- [Godel](https://orkg.org/paper/R371152)
 
   ```yaml
   Title: Godel: Large-scale pre-training for goal-directed dialog
@@ -1196,7 +1196,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- E5
+- [E5](https://orkg.org/paper/R595021)
 
   ```yaml
   Title: Text Embeddings by Weakly-Supervised Contrastive Pre-training
@@ -1221,7 +1221,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- WizardLM
+- [WizardLM](https://orkg.org/paper/R609231)
 
   ```yaml
   Title: WizardLM: Empowering Large Language Models to Follow Complex Instructions
@@ -1245,7 +1245,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- WizardMath
+- [WizardMath](https://orkg.org/paper/R609258)
 
   ```yaml
   Title: WizardMath: Empowering Mathematical Reasoning for Large Language Models via Reinforced Evol-Instruct
@@ -1266,7 +1266,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- Orca
+- [Orca](https://orkg.org/paper/R609298)
 
   ```yaml
   Title: Orca: Progressive learning from complex explanation traces of gpt-4
@@ -1289,7 +1289,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- WizardCoder
+- [WizardCoder](https://orkg.org/paper/R609227)
 
   ```yaml
   Title: WizardCoder: Empowering Code Large Language Models with Evol-Instruct
@@ -1312,7 +1312,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 ----------------------------------------
 #### Huggingface
 
-- DistilBERT
+- [DistilBERT](https://orkg.org/paper/R370876/R370877)
 
   ```yaml
   Title: DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter
@@ -1338,7 +1338,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 ----------------------------------------
 #### Google, and Imperial College London
 
-- Pegasus
+- [Pegasus](https://orkg.org/paper/R370884/R370885)
 
   ```yaml
   Title: PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization
@@ -1364,7 +1364,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 ----------------------------------------
 #### Google, and Stanford
 
-- ELECTRA
+- [ELECTRA](https://orkg.org/paper/R370890/R370891)
 
   ```yaml
   Title: ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators
@@ -1390,7 +1390,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 ----------------------------------------
 #### NVidia
 
-- Megatron
+- [Megatron](https://orkg.org/paper/R370895/R370896)
 
   ```yaml
   Title: Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism
@@ -1413,7 +1413,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- Megatron-Turing NLG
+- [Megatron-Turing NLG](https://orkg.org/paper/R370987/R370988)
 
   ```yaml
   Title: Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model
@@ -1435,7 +1435,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- Global Context ViT
+- [Global Context ViT](https://orkg.org/paper/R370971)
 
   ```yaml
   Title: Global Context Vision Transformers
@@ -1462,7 +1462,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 ----------------------------------------
 #### EleutherAI
 
-- GPT-Neo
+- [GPT-Neo](https://orkg.org/paper/R370909)
 
   ```yaml
   Title: GPT-Neo: Large Scale Autoregressive Language Modeling with Mesh-Tensorflow
@@ -1483,7 +1483,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- GPT-J
+- [GPT-J](https://orkg.org/paper/R595049)
 
   ```yaml
   Title: GPT-J-6B: A 6 billion parameter autoregressive language model
@@ -1506,7 +1506,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- GPT-NeoX-20B
+- [GPT-NeoX-20B](https://orkg.org/paper/R320520/R370962)
 
   ```yaml
   Title: GPT-NeoX-20B: An Open-Source Autoregressive Language Model
@@ -1531,7 +1531,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- Pythia
+- [Pythia](https://orkg.org/paper/R595113)
 
   ```yaml
   Title: Pythia: A suite for analyzing large language models across training and scaling
@@ -1559,7 +1559,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 ----------------------------------------
 #### Facebook, Google, and UC Berkeley
 
-- Decision Transformers
+- [Decision Transformers](https://orkg.org/paper/R370914/R370915)
 
   ```yaml
   Title: Decision Transformer: Reinforcement Learning via Sequence Modeling
@@ -1583,7 +1583,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 ----------------------------------------
 #### UC Berkeley
 
-- Trajectory Transformers
+- [Trajectory Transformers](https://orkg.org/paper/R370916)
 
   ```yaml
   Title: Offline Reinforcement Learning as One Big Sequence Modeling Problem
@@ -1607,7 +1607,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 ----------------------------------------
 #### AI21
 
-- Jurassic-1
+- [Jurassic-1](https://orkg.org/paper/R370924)
 
   ```yaml
   Title: Jurassic-1: Technical details and evaluation
@@ -1633,7 +1633,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 ----------------------------------------
 #### Anthropic
 
-- Anthropic Assistant
+- [Anthropic Assistant](https://orkg.org/paper/R370926)
 
   ```yaml
   Title: A General Language Assistant as a Laboratory for Alignment
@@ -1655,7 +1655,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 ----------------------------------------
 #### EleutherAI, Stability.ai, and LMU Munich
 
-- StableDiffusion
+- [StableDiffusion](https://orkg.org/paper/R370936)
 
   ```yaml
   Title: High-Resolution Image Synthesis with Latent Diffusion Models
@@ -1678,7 +1678,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 ----------------------------------------
 #### Amazon
 
-- DQ-BART
+- [DQ-BART](https://orkg.org/paper/R370947)
 
   ```yaml
   Title: DQ-BART: Efficient Sequence-to-Sequence Model via Joint Distillation and Quantization
@@ -1699,7 +1699,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- AlexaTM 20B
+- [AlexaTM 20B](https://orkg.org/paper/R594025)
 
   ```yaml
   Title: Alexatm 20b: Few-shot learning using a large-scale multilingual seq2seq model
@@ -1726,7 +1726,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 ----------------------------------------
 #### Tsinghua University
 
-- GLM
+- [GLM](https://orkg.org/paper/R595041)
 
   ```yaml
   Title: GLM: General language model pretraining with autoregressive blank infilling
@@ -1754,7 +1754,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 ----------------------------------------
 #### BigScience
 
-- T0
+- [T0](https://orkg.org/paper/R595140)
 
   ```yaml
   Title: Multitask prompted training enables zero-shot task generalization
@@ -1780,7 +1780,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 ----------------------------------------
 #### Huggingface, and Big Science
 
-- BLOOM
+- [BLOOM](https://orkg.org/paper/R370980/R370989)
 
   ```yaml
   Title: BLOOM: A 176B-Parameter Open-Access Multilingual Language Model
@@ -1805,9 +1805,9 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   ```
 
 ----------------------------------------
-#### Meta
+#### Meta AI
 
-- Galactica
+- [Galactica](https://orkg.org/paper/R595034)
 
   ```yaml
   Title: Galactica: A large language model for science
@@ -1831,36 +1831,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-----------------------------------------
-#### Meta AI, University of Washington, and University of Hong Kong
-
-- InstructOR
-
-  ```yaml
-  Title: One Embedder, Any Task: Instruction-Finetuned Text Embeddings
-  model family: T5
-  date created: 2022-12-01
-  organization: Meta AI, University of Washington, University of Hong Kong
-  innovation: InstructOR is built on the GTR model architecture, initialized from T5 models, and fine-tuned on information search datasets. It uses a single encoder to encode input text and task instructions. The training objective distinguishes between good and bad candidate outputs based on their cosine similarity in embeddings.
-  pretraining architecture: Encoder/Decoder
-  fine-tuning task: Wide variety of instruction based text-to-text tasks
-  training corpus: Finetuned on MEDI
-  optimizer: AdamW
-  number of parameters: 330M
-  maximum number of parameters (in million): 330
-  hardware used: A100-40GB GPU
-  extension: Fine-tunes T5 explicitly to optimize encoder to produce a general purpose text string embedding useful for many NLU tasks.
-  application: Any NLU task requiring a single text string embedding. As of April 2023 InstructOR is the top-ranked system on the Massive Text Embedding Benchmark (MTEB).
-  has source code: https://huggingface.co/hkunlp/instructor-xl
-  blog post: https://pub.towardsai.net/paper-review-instructor-one-embedder-any-task-6a846b0d3ba
-  license: Open, Apache 2.0
-  research problem: Large Language Models (LLMs), transformer model
-  ```
-
-----------------------------------------
-#### Meta AI
-
-- LLaMA
+- [LLaMA](https://orkg.org/paper/R372832/R372839)
 
   ```yaml
   Title: LLaMA: Open and Efficient Foundation Language Models
@@ -1886,7 +1857,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- Llama 2
+- [Llama 2](https://orkg.org/paper/R602332)
 
   ```yaml
   Title: Llama 2: Open Foundation and Fine-Tuned Chat Models
@@ -1913,9 +1884,35 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   ```
 
 ----------------------------------------
+#### Meta AI, University of Washington, and University of Hong Kong
+
+- [InstructOR](https://orkg.org/paper/R595052)
+
+  ```yaml
+  Title: One Embedder, Any Task: Instruction-Finetuned Text Embeddings
+  model family: T5
+  date created: 2022-12-01
+  organization: Meta AI, University of Washington, University of Hong Kong
+  innovation: InstructOR is built on the GTR model architecture, initialized from T5 models, and fine-tuned on information search datasets. It uses a single encoder to encode input text and task instructions. The training objective distinguishes between good and bad candidate outputs based on their cosine similarity in embeddings.
+  pretraining architecture: Encoder/Decoder
+  fine-tuning task: Wide variety of instruction based text-to-text tasks
+  training corpus: Finetuned on MEDI
+  optimizer: AdamW
+  number of parameters: 330M
+  maximum number of parameters (in million): 330
+  hardware used: A100-40GB GPU
+  extension: Fine-tunes T5 explicitly to optimize encoder to produce a general purpose text string embedding useful for many NLU tasks.
+  application: Any NLU task requiring a single text string embedding. As of April 2023 InstructOR is the top-ranked system on the Massive Text Embedding Benchmark (MTEB).
+  has source code: https://huggingface.co/hkunlp/instructor-xl
+  blog post: https://pub.towardsai.net/paper-review-instructor-one-embedder-any-task-6a846b0d3ba
+  license: Open, Apache 2.0
+  research problem: Large Language Models (LLMs), transformer model
+  ```
+
+----------------------------------------
 #### Stanford University
 
-- Alpaca
+- [Alpaca](https://orkg.org/paper/R595000)
 
   ```yaml
   Title: Alpaca: A strong, replicable instruction-following model
@@ -1941,7 +1938,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 ----------------------------------------
 #### Large Model Systems Organization
 
-- Vicuna
+- [Vicuna](https://orkg.org/paper/R602383)
 
   ```yaml
   Title: Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90%* ChatGPT Quality
@@ -1967,7 +1964,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 ----------------------------------------
 #### MosaicML
 
-- MPT-7B
+- [MPT-7B](https://orkg.org/paper/R602349)
 
   ```yaml
   Title: Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs
@@ -1993,7 +1990,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: Large Language Models (LLMs), transformer model
   ```
 
-- MPT-30B
+- [MPT-30B](https://orkg.org/paper/R602501)
 
   ```yaml
   Title: Introducing MPT-30B: Raising the bar for open-source foundation models
@@ -2021,7 +2018,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 ----------------------------------------
 #### BigCode Project
 
-- StarCoderBase, StarCoder
+- [StarCoder](https://orkg.org/paper/R609229)
 
   ```yaml
   Title: StarCoder: may the source be with you!
@@ -2048,7 +2045,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 ----------------------------------------
 #### Technology Innovation Institute
 
-- Falcon
+- [Falcon](https://orkg.org/paper/R602339/R602340)
 
   ```yaml
   Title: Falcon-40B: an open large language model with state-of-the-art performance
@@ -2075,7 +2072,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 ----------------------------------------
 #### Berkeley AI Research
 
-- OpenLLaMA v1
+- [OpenLLaMA v1](https://orkg.org/paper/R603838/R603839)
 
   ```yaml
   Title: OpenLLaMA: An Open Reproduction of LLaMA
@@ -2099,7 +2096,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: transformer model, Large Language Models (LLMs)
   ```
 
-- OpenLLaMA v2
+- [OpenLLaMA v2](https://orkg.org/paper/R603838/R603840)
 
   ```yaml
   Title: OpenLLaMA: An Open Reproduction of LLaMA
@@ -2124,7 +2121,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 ----------------------------------------
 #### Cerebras, Mohamed bin Zayed University of Artificial Intelligence, and Inception
 
-- JAIS
+- [JAIS](https://orkg.org/paper/R609266)
 
   ```yaml
   Title: Jais and Jais-chat: Arabic-Centric Foundation and Instruction-Tuned Open Generative Large Language Models
