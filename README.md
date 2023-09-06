@@ -46,7 +46,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 
 ## Organizations
 
-- **OpenAI**
+### OpenAI
 
   ```yaml
   Field: Language
@@ -56,7 +56,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   Context: 4096
   ```
 
-- **Falcon**
+### Falcon
 
   ```yaml
   Field: Language
@@ -66,7 +66,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   Context Length: 2048
   ```
 
-- **Google, and CMU**
+### Google, and CMU
 
   ```yaml
   Field: Language
