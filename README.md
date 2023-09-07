@@ -2192,9 +2192,10 @@ BONUS: You can also add your structured description to the [Open Research Knowle
 
 ## Exporting into a structured format
 
+Aim: to convert the contents of this repo into a [csv file](https://orkg.org/help-center/article/16/Import_CSV_files_in_ORKG) that can be imported into the ORKG via https://orkg.org/csv-import.
+
 Coming soon...
 
-Aim: to convert the contents of this repo into a [csv file](https://orkg.org/help-center/article/16/Import_CSV_files_in_ORKG) that can be imported into the ORKG via https://orkg.org/csv-import.
 
 ## License
 
