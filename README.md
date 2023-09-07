@@ -2190,6 +2190,11 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 BONUS: You can also add your structured description to the [Open Research Knowledge Graph](https://orkg.org/) by `Add new Paper` and using the following [template](https://orkg.org/template/R609825/properties) to describe the model.
 
 
+## Exporting into a structured format
+
+Coming soon...
+
+
 ## License
 
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
