@@ -2157,11 +2157,11 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 
 ![plot](./img/edit-modal.png)
 
-2. Add the `language model` under an `organization`. If an Organization does not exist, introduce it.
+2. Add the `language model` under an `organization`. If an `organization` does not exist, introduce it.
 
-3. Add the Language Model name as a new bullet point.
+3. Add the `language model` name as a new bullet point.
 
-4. Beneath it, add values for the following properties.
+4. Beneath it, add values for the following properties for as many as known.
 
   ```yaml
   Title: 
