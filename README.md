@@ -2149,6 +2149,47 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
 
 ----------------------------------------
 
+## How to Contribute
+
+#### Guidelines
+
+1. If you would like to add a new language model, you can just click on the small edit button in the top-right corner of the README file (see below).
+
+![plot](./img/edit-modal.png)
+
+2. Organize the Language Model under an Organization. If an Organization does not exist, introduce it.
+
+3. Add the Language Model name as a new bullet point.
+
+4. Beneath it, add values for the following properties.
+
+  ```yaml
+  Title: 
+  model family: 
+  date created: 
+  organization: 
+  innovation: 
+  pretraining architecture: 
+  pretraining task: 
+  fine-tuning task: 
+  training corpus: 
+  optimizer: 
+  tokenization: 
+  number of parameters: 
+  maximum number of parameters (in million): 
+  hardware used: 
+  hardware information: 
+  extension: 
+  application: 
+  has source code: 
+  blog post: 
+  license: 
+  research problem: 
+  ```
+
+BONUS: You can also add your structured description to the [Open Research Knowledge Graph](https://orkg.org/) by `Add new Paper` and using the following [template](https://orkg.org/template/R609825/properties) to describe the model.
+
+
 ## License
 
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
