@@ -2187,7 +2187,7 @@ A compilation of AWESOME things of Large Language Models (LLMs) is presented. Ea
   research problem: 
   ```
 
-BONUS: You can also add your structured description to the [Open Research Knowledge Graph](https://orkg.org/) by `Add new Paper` and using the following [template](https://orkg.org/template/R609825/properties) to describe the model.
+BONUS: You can also add your structured description to the [Open Research Knowledge Graph](https://orkg.org/) by selecting `Add new Paper` from the homepage and using the following [template](https://orkg.org/template/R609825/properties) to describe the model.
 
 
 ## Exporting into a structured format
